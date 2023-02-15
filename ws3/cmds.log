@@ -1,0 +1,335 @@
+  852  less testtextfile.txt 
+  853  vim testtextfile.txt 
+  854  ls
+  855  cd ~
+  856  ls -lh
+  857  git status
+  858  ls
+  859  ls -l
+  860  ls -lh
+  861  cat testtextfile.txt 
+  862  cut -w testtextfile.txt > wordcount.txt
+  863  cut --help
+  864  man cut
+  865  cut -b testtextfile.txt > wordcount.txt
+  866  cut -b 5, 6, 7 testtextfile.txt > wordcount.txt
+  867  cut -b 1, , 5, 7 testtextfile.txt > wordcount.txt
+  868  cut -b 1,2,3 testtextfile.txt > wordcount.txt
+  869  cat wordcount.txt
+  870  less testtextfile.txt 
+  871  cut -b 1,2,3,4,5 testtextfile.txt > wordcount.txt
+  872  cat wordcount.txt
+  873  cut -b 5,6,7 testtextfile.txt > wordcount.txt
+  874  cat wordcount.txt
+  875  cut -c 4-12 awsreviews.txt > wordcount.txt
+  876  cut -c 4-12 awsreviews.tsv > wordcount.txt
+  877  less wordcount.txt
+  878  less wordcount.txt 
+  879  vim wordcount.txt
+  880  ls
+  881  cut -c 4-12 awsreviews.tsv > customerIDs.txt
+  882  ls
+  883  cut -c 4-12 awsreviews.tsv > customerIDs.txt
+  884  less customerIDs.txt
+  885  less wordcount.txt 
+  886  sort -h wordcount.txt 
+  887  less wordcount.txt 
+  888  less wordcount.txt 
+  889  cat wordcount.txt
+  890  cat awsreviews.tsv
+  891  sort -h wordcount.txt > sortedcustIDs.txt
+  892  less sortedcustIDs.txt 
+  893  ls
+  894  less sortedcustIDs.txt 
+  895  less customerIDs.txt 
+  896  sort -h customerIDs.txt > sortedcustIDs.txt 
+  897  less customerIDs.txt 
+  898  less sortedcustIDs.txt 
+  899  ls
+  900  uniq -c sortedcustIDs.txt 
+  901  sort -h customerIDs.txt > sortedcustIDs.txt | uniq -c sortedcustIDs.txt | sort -h sortedcustIDs.txt 
+  902  less sortedcustIDs.txt 
+  903  uniq -c sort -r sortedcustIDs.txt 
+  904  uniq -c sortedcustIDs.txt 
+  905  sort -h customerIDs.txt > sortedcustIDs.txt | sort -h `uniq -c sortedcustIDs.txt`
+  906  less sortedcustIDs.txt 
+  907  ls
+  908  cat cmds.log
+  909  ls
+  910  less guaranteedanswer.txt 
+  911  ls
+  912  cat wordcount.txt
+  913  vim wordcount.txt
+  914  man rm
+  915  rm wordcount.txt
+  916  ls
+  917  cut -c 29-39 awsreviews.tsv > unsortedprodids.txt
+  918  less unsortedprodids.txt 
+  919  cut -c 27-37 awsreviews.tsv > unsortedprodids.txt
+  920  less unsortedprodids.txt 
+  921  cut -c 26-37 awsreviews.tsv > unsortedprodids.txt
+  922  less unsortedprodids.txt 
+  923  qqq
+  924  cut -c 27-37 awsreviews.tsv > unsortedprodids.txt
+  925  less unsortedprodids.txt
+  926  ls
+  927  cat cmds.log
+  928  ls
+  929  sort -r --parallel unsortedprodids.txt > sortedprodids.txt
+  930  sort -r --parallel=unsortedprodids.txt > sortedprodids.txt
+  931  sort -r unsortedprodids.txt > sortedprodids.txt
+  932  less sortedprodids.txt 
+  933  history >> cmds.log
+  934  less cmds.log
+  935  cat cmds.log
+  936  uniq -c sortedprodids.txt
+  937  ls
+  938  sort -n sortedprodids.txt
+  939  uniq -c sortedprodids.txt
+  940  less sortedcustIDs.txt 
+  941  sort -h customerIDs.txt > sortedcustIDs.txt | uniq -c | sort -h
+  942  less sortedcustIDs.txt 
+  943  uniq -c sortedcustIDs.txt > guaranteedanswer.txt
+  944  less guaranteedanswer.txt 
+  945  sort -r guaranteedanswer.txt 
+  946  less guaranteedanswer.txt 
+  947  sort -n guaranteedanswer.txt 
+  948  history > cmds.log
+  949  less cmds.log
+  950  ls
+  951  less unsortedprodids.txt 
+  952  ls
+  953  ls
+  954  less guaranteedanswer.txt 
+  955  cat guaranteedanswer.txt 
+  956  ls
+  957  cat sortedprodids.txt 
+  958  ls
+  959  less unsortedprodids.txt 
+  960  ls
+  961  mkdir ws3productid
+  962  ls
+  963  man cp
+  964  ls
+  965  cp awsreviews.tsv ws3productid
+  966  ls
+  967  cd ws3productid
+  968  ls
+  969  ls -a
+  970  ls
+  971  cut -c 26-36 awsreviews.tsv > productidcut.txt
+  972  ls
+  973  less productidcut.txt 
+  974  cut -c 27-36 awsreviews.tsv > productidcut.txt
+  975  less productidcut.txt 
+  976  sort -h productidcut.txt > humansortedprodids.txt
+  977  less humansortedprodids.txt 
+  978  uniq -c humansortedprodids.txt > uniquecounterprodid.txt
+  979  less uniquecounterprodid.txt 
+  980  sort -n uniquecounterprodid.txt 
+  981  ls
+  982  history > cmds.log
+  983  ls
+  984  cat cmds.log
+  985  ls
+  986  sort -n uniquecounterprodid.txt > sorteduniquecounterprodid.txt
+  987  cat sorteduniquecounterprodid.txt 
+  988  ls
+  989  cd ..
+  990  ls
+  991  cd ws3productid/
+  992  ls
+  993  less sorteduniquecounterprodid.txt 
+  994  cd ..
+  995  ls
+  996  less guaranteedanswer.txt 
+  997  less sortedprodids.txt 
+  998  less customerIDs.txt 
+  999  less sortedcustIDs.txt 
+ 1000  less unsortedprodids.txt 
+ 1001  less guaranteedanswer.txt 
+ 1002  less unsortedprodids.txt cd ws3productid/
+ 1003  ls
+ 1004  cd ws3productid
+ 1005  ls
+ 1006  less sorteduniquecounterprodid.txt 
+ 1007  cd ..
+ 1008  ls
+ 1009  less guaranteedanswer.txt 
+ 1010  sort -n guaranteedanswer.txt > custIDanswerattempt1.txt
+ 1011  less custIDanswerattempt1.txt 
+ 1012  ls
+ 1013  cp -i -v custIDanswerattempt1.txt cs131/ws3
+ 1014  ls
+ 1015  cd cs131
+ 1016  ls
+ 1017  cd ws3
+ 1018  ls
+ 1019  cd ..
+ 1020  cd ~
+ 1021  ls
+ 1022  mv -i -v custIDanswerattempt1.txt cs131/ws3
+ 1023  ls
+ 1024  less custIDanswerattempt1.txt
+ 1025  ls
+ 1026  cd ws3productid/
+ 1027  ls
+ 1028  cp sorteduniquecounterprodid.txt cs131
+ 1029  ls
+ 1030  cd ..
+ 1031  ls
+ 1032  cd ws3productid/
+ 1033  ls
+ 1034  mv -i -v sorteduniquecounterprodid.txt cs131
+ 1035  cd ..
+ 1036  ls
+ 1037  cd ws3productid/
+ 1038  ls
+ 1039  cd ~
+ 1040  ls
+ 1041  cd ws3productid
+ 1042  ls
+ 1043  cd cs131
+ 1044  ls
+ 1045  rm cs131
+ 1046  ls
+ 1047  mv -i -v ~/ws3productid/* ~/cs131/
+ 1048  ls
+ 1049  cd ..
+ 1050  ls
+ 1051  mkdir ws3workspace
+ 1052  ls
+ 1053  cd cs131
+ 1054  ls
+ 1055  cd ..
+ 1056  ls
+ 1057  mv -t -i -v ws3workspace customerIDs.txt sortedcustIDs.txt testtextfile.txt ws3productid 
+ 1058  mv -t -v ws3workspace customerIDs.txt sortedcustIDs.txt testtextfile.txt ws3productid 
+ 1059  mv -t ws3workspace customerIDs.txt sortedcustIDs.txt testtextfile.txt ws3productid 
+ 1060  ls
+ 1061  mv -t ws3workspace guaranteedanswer.txt sortedprodids.txt unsortedprodids.txt 
+ 1062  ls
+ 1063  rm amazon_reviews_us_Books_v1_02.tsv 
+ 1064  ls
+ 1065  mv ws3workspace cs131
+ 1066  ls
+ 1067  cd cs131
+ 1068  ls
+ 1069  mv sorteduniquecounterprodid.txt ws3
+ 1070  cd ws3
+ 1071  ls
+ 1072  less custIDanswerattempt1.txt 
+ 1073  ls
+ 1074  less sorteduniquecounterprodid.txt 
+ 1075  cd ..
+ 1076  cd ~
+ 1077  ls
+ 1078  cd cs131
+ 1079  ls
+ 1080  pwd
+ 1081  ls
+ 1082  cd ..
+ 1083  ls
+ 1084  cd 131
+ 1085  cd cs131
+ 1086  ls
+ 1087  rm awsreviews.tsv 
+ 1088  ls
+ 1089  mv -t ws3workspace productidcut.txt uniquecounterprodid.txt wordcount.txt humansortedprodids.txt 
+ 1090  ls
+ 1091  cd ~
+ 1092  ls
+ 1093  cd cs131
+ 1094  ls
+ 1095  rmdir wstest
+ 1096  ls
+ 1097  cd ws3
+ 1098  ls
+ 1099  cd ..
+ 1100  ls
+ 1101  cd ws3
+ 1102  ls
+ 1103  vim custIDanswerattempt1.txt 
+ 1104  ls
+ 1105  cp custIDanswerattempt1.txt custIDs.txt
+ 1106  ls
+ 1107  less custIDs.txt
+ 1108  ls
+ 1109  vim custIDanswerattempt1.txt 
+ 1110  ls
+ 1111  vim IDsanswer.txt
+ 1112  ls
+ 1113  less IDsanswer.txt 
+ 1114  less custIDs.txt
+ 1115  cat IDsanswer.txt 
+ 1116  ls
+ 1117  less sorteduniquecounterprodid.txt 
+ 1118  cp sorteduniquecounterprodid.txt prodIDs.txt
+ 1119  less prodIDs.txt 
+ 1120  less sorteduniquecounterprodid.txt 
+ 1121  vim sorteduniquecounterprodid.txt 
+ 1122  ls
+ 1123  vim IDsanswer.txt 
+ 1124  ls
+ 1125  cd ~
+ 1126  ls
+ 1127  cd cs131
+ 1128  ls
+ 1129  cd ws3
+ 1130  ls
+ 1131  mv IDsanswer.txt ws3Answer.txt
+ 1132  ls
+ 1133  less ws3Answer.txt 
+ 1134  cd ~
+ 1135  ls
+ 1136  cd cs131
+ 1137  ls
+ 1138  cd ws3
+ 1139  ls
+ 1140  mkdir ws3finaltouchupfiles
+ 1141  ls
+ 1142  mv -t ws3finaltouchupfiles custIDanswerattempt1.txt custIDs.txt prodIDs.txt sorteduniquecounterprodid.txt 
+ 1143  ls
+ 1144  cd ws3finaltouchupfiles/
+ 1145  cd ws3finaltouchupfiles
+ 1146  ls
+ 1147  cd ..
+ 1148  ls
+ 1149  cd ws3
+ 1150  ls
+ 1151  mv -v ~/cs131/ws3workspace
+ 1152  ls
+ 1153  mv -v ws3finaltouchupfiles/* ~/cs131/ws3workspace
+ 1154  ls
+ 1155  cd ws3finaltouchupfiles/
+ 1156  ls
+ 1157  cd ..
+ 1158  ls
+ 1159  cd ws3workspace/
+ 1160  ls
+ 1161  cd ..
+ 1162  cd ~
+ 1163  ls
+ 1164  cd cs131
+ 1165  ls
+ 1166  cd ws3
+ 1167  ls
+ 1168  cd ws3finaltouchupfiles/
+ 1169  ls
+ 1170  cd ..
+ 1171  ls
+ 1172  rm ws3finaltouchupfiles
+ 1173  rmdir ws3finaltouchupfiles
+ 1174  ls
+ 1175  cd ..
+ 1176  ls
+ 1177  cd ws3
+ 1178  ls
+ 1179  less ws3Answer.txt 
+ 1180  cd ~
+ 1181  ls
+ 1182  cd cs131
+ 1183  ls
+ 1184  cd ws3
+ 1185  ls
+ 1186  history > cmds.log

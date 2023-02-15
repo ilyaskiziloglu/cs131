@@ -1,0 +1,1000 @@
+   21  git push -u origin main
+   22  git branch -M main
+   23  git push -u origin main
+   24  cat ~/.ssh/id_rsa.pub
+   25  ls ~/.ssh
+   26  ssh-keygen -t rsa -C "ilyas kiziloglu ilyaskiziloglu@sjsu.edu"
+   27  cat ~/.ssh/id_rsa.pub
+   28  git remote add origin git@github.com:ilyaskiziloglu/cs131.git
+   29  git branch -M maion
+   30  git branch -M main
+   31  git push -u origin main
+   32  git remote add origin git@github.com:ilyaskiziloglu/cs131.git
+   33  git branch -M main
+   34  git push -u origin main
+   35  ls
+   36  mkdir ws1
+   37  ls
+   38  mv textfile.txt ws1
+   39  ls
+   40  cd ws 
+   41  cd ws1
+   42  ls
+   43  cd ..
+   44  ls
+   45  cd ..
+   46  ls
+   47  cd ws1
+   48  ls
+   49  git status
+   50  git commit -m "Moving textfile into ws1 directory"
+   51  git push
+   52  ls
+   53  c d..
+   54  cd ..
+   55  pwd
+   56  ls
+   57  wget github.com
+   58  ls
+   59  git status
+   60  cd ws1
+   61  git status
+   62  wget github.com
+   63  git status
+   64  git commit -m "First attempt at pushing wget into the repo" 
+   65  git push
+   66  ls
+   67  git status
+   68  git add index.html
+   69  ls
+   70  git commit -m "Retrying to add wget file" 
+   71  git status
+   72  git push
+   73  man gunzip
+   74  qqqqq
+   75  ls133
+   76  ls
+   77  cd ws1
+   78  git status
+   79  ls
+   80  cd ..
+   81  ls
+   82  pwd
+   83  git init
+   84  git status
+   85  git add
+   86  ls
+   87  mkdir ws2
+   88  ls
+   89  git status
+   90  git commit -a -m "Created git environment in main user space and not ws1 directory. Pushing all."
+   91  git add
+   92  git add all
+   93  git add .
+   94  git rm --cached ws1
+   95  git rm --cached -f ws1
+   96  git status
+   97  git commit -m "Committing entire user space. Trying this again" 
+   98  git push
+   99  git push -u origin main
+  100  git status
+  101  ls
+  102  git add .
+  103  git status
+  104  git push -u origin main
+  105  ls
+  106  git add .
+  107  git status
+  108  ls
+  109  pwd
+  110  git status
+  111  ls
+  112  git status
+  113  git add .
+  114  git status
+  115  git commit -m "test commit" 
+  116  git push -u origin main
+  117  ls
+  118  git status
+  119  cd ws2
+  120  ls
+  121  git status
+  122  git add
+  123  git add .
+  124  git status
+  125  git commit -a -m "Just re-committing everything as I try to solve this assignment" 
+  126  git push -u origin master
+  127  ls ~/.ssh
+  128  cat ~/.ssh/id_rsa.pub
+  129  git config --global user.name"Ilyas"
+  130  git config --global user.email"ilyas.kiziloglu@sjsu.edu"
+  131  git push -u origin main
+  132  git status
+  133  git commit -a -m "Test?"
+  134  ls
+  135  man gzip
+  136  history
+  137  ls
+  138  history > cmds.log
+  139  ls
+  140  git add .
+  141  git status
+  142  git commit -a -m "Pushing commands log file to github, only part 1 seems to be done right now" 
+  143  git push -u origin main
+  144  git pull
+  145  git status
+  146  git add .
+  147  git status
+  148  ls
+  149  git commit -a -m "test again for cmds log file" 
+  150  git status
+  151  git push -f origin master
+  152  git pull
+  153  git push -u origin main
+  154  git commit -m "test"
+  155  git add .
+  156  git commit -m "test"
+  157  git push -u origin main
+  158  ssh s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  159  ssh https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  160  ssh google.com
+  161  ls
+  162  man scp
+  163  scp 
+  164  man scp
+  165  scp ilyas.kiziloglu@sjsu.edu
+  166  scp ilyas.kiziloglu@sjsu.edu:/remote/path
+  167  pwd
+  168  ls
+  169  pwd
+  170  ls
+  171  cd ws2
+  172  ls
+  173  man ftp
+  174  ftp
+  175  owd
+  176  pwd
+  177  whoami
+  178  firefox
+  179  browser
+  180  help
+  181  ls
+  182  pwd
+  183  cd ..
+  184  ls
+  185  cd ..
+  186  ls
+  187  cd ..
+  188  ls
+  189  cd ..
+  190  ls
+  191  cd mnt
+  192  ls
+  193  cd scratch
+  194  ls
+  195  cd ilyas23sp
+  196  ls
+  197  cd ws2
+  198  ls
+  199  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+  200  sftp
+  201  man sftp
+  202  ls
+  203  cd ~
+  204  ls
+  205  mv amazon_reviews_us_Books_v1_02.tsv awsreviews.tsv
+  206  ls
+  207  mv awsreviews.tsv ws2
+  208  ls
+  209  cd ws2
+  210  ls
+  211  cd ..
+  212  ls
+  213  rm index.html
+  214  ls
+  215  rm index.html.1
+  216  rm index.html.2
+  217  ls
+  218  mv cmds.log ws1
+  219  ls
+  220  cd ws2
+  221  ls
+  222  cd ..
+  223  ls
+  224  cd ws1
+  225  ls
+  226  git status
+  227  cd ..
+  228  ls
+  229  cd ws2
+  230  ls
+  231  git status
+  232  cd ~
+  233  ls
+  234  git status
+  235  git add .
+  236  ls
+  237  git add .
+  238  ls
+  239  git status
+  240  git pull
+  241  git-pull(1)
+  242  git pull
+  243  git status
+  244  git commit -a -m "Book file sent and files reorganized" 
+  245  git push
+  246  git push -u origin main
+  247  git status
+  248  ls
+  249  cd ws1
+  250  git status
+  251  cd ..
+  252  git status
+  253  git add .
+  254  git status
+  255  git pull
+  256  git pull main
+  257  ls
+  258  git push -u origin main
+  259  git push -umain
+  260  git push -u main
+  261  git push --set-upstream main master
+  262  git status
+  263  git add .
+  264  git status
+  265  git push origin main
+  266  git push -u origin main
+  267  git status
+  268  git add .
+  269  git status
+  270  git add .
+  271  git add
+  272  git add .
+  273  git status
+  274  git add --all
+  275  git status
+  276  ls
+  277  cd ws2
+  278  git status
+  279  cd ..
+  280  ls
+  281  cd ~
+  282  ls
+  283  git pull
+  284  git pull origin master
+  285  git pull origin main
+  286  git pull
+  287  git pull origin master
+  288  git branch --set-upstream-to=origin/master master
+  289  git fetch
+  290  git branch
+  291  git branch -r
+  292  git branch -a
+  293  git status
+  294  git add .
+  295  git status
+  296  git rm rf --cached ws1
+  297  git rm --cached ws1
+  298  ls
+  299  git status
+  300  ls
+  301  cd ws1
+  302  ls
+  303  cd ..
+  304  ls
+  305  git clean 
+  306  git clean -f
+  307  git status
+  308  cd ws1
+  309  git clean -f
+  310  cd ..
+  311  git status
+  312  git clean -f
+  313  git status
+  314  git add .
+  315  ls
+  316  git rm --cached ws1
+  317  ls
+  318  git rm --cached ws2
+  319  git rm --cached ws1
+  320  git rm --cached ws2
+  321  ls
+  322  git status
+  323  git add .
+  324  git rm --cached ws1
+  325  ls
+  326  cd ..
+  327  ls
+  328  cd ilyas23sp
+  329  ls
+  330  git pull origin main
+  331  ls
+  332  git fetch
+  333  ls
+  334  git status
+  335  git commit -a -m "Literally trying to do anything at this point but nothing is working" 
+  336  git push origin main
+  337  ls
+  338  git status
+  339  git add .
+  340  git rm --cached ws1
+  341  ls
+  342  git rm -f --cached ws1
+  343  ls
+  344  git status
+  345  git clean -f 
+  346  ls
+  347  git status
+  348  cd ws1
+  349  git clean -f
+  350  ls
+  351  git clean -f
+  352  ls
+  353  cd ..
+  354  lks
+  355  ls
+  356  git status
+  357  cd ws2
+  358  ls
+  359  git clean -f
+  360  ls
+  361  cd ~
+  362  ls
+  363  git status
+  364  git clean -n
+  365  git clean -nd
+  366  git clean -f ws1
+  367  ls
+  368  git clean -fd
+  369  ls
+  370  git status
+  371  git add .
+  372  git rm --cached ws1
+  373  git status
+  374  git rm cached -f ws1
+  375  git rm cached ws1
+  376  git rm --cached ws1
+  377  git rm --cached -f ws1
+  378  ls
+  379  cd ..
+  380  ls
+  381  cd ilyas23sp
+  382  ls
+  383  git add ws1
+  384  git rm --cached ws1
+  385  cd ws2
+  386  ls
+  387  grep 'verified' awsreviews.tsv
+  388  man grep
+  389  grep -v -e 'verified'
+  390  grep -v -e 'verified' awsreviews.tsv
+  391  man wc
+  392  wc -l awsreviews.tsv
+  393  wc -w awsreviews.tsv
+  394  man wc
+  395  wc -l 'verified' awsreviews.tsv
+  396  wc 'verified' -l awsreviews.tsv
+  397  ls
+  398  mkdir counts.txt
+  399  ls
+  400  grep 'verified' awsreviews.tsv > counts.txt
+  401  grep 'verified' awsreviews.tsv >counts.txt
+  402  grep 'verified' >counts.txt awsreviews.tsv
+  403  >counts.txt
+  404  cat counts.txt
+  405  echo grep 'verified' awsreviews.tsv > counts.txt
+  406  grep 'verified' awsreviews.tsv > counts.txt
+  407  grep 'verified' awsreviews.tsv
+  408  kls
+  409  ls
+  410  cat counts.txt
+  411  ls
+  412  cat awsreviews.tsv
+  413  ls
+  414  cat counts.txt
+  415  grep counts.txt
+  416  wc -l counts.txt
+  417  grep 'verified' awsreviews.rsv > counts.txt
+  418  grep 'verified' awsreviews.rsv
+  419  grep 'verified' awsreviews.tsv > counts.txt
+  420  grep 'verified' awsreviews.tsv
+  421  cd ~
+  422  ls
+  423  git status
+  424  git pull origin main
+  425  git status
+  426  git add .
+  427  git status
+  428  git commit -a -m "4+ hours in and this shit still doesnt work"
+  429  git push -u origin main
+  430  ls
+  431  history > cmds.log
+  432  ls
+  433  git push origin main
+  434  git pull --rebase
+  435  git push origin main
+  436  uptiem
+  437  uptime
+  438  session
+  439  session tiem
+  440  session time
+  441  ls
+  442  cd ws2
+  443  ls
+  444  cat awsreviews.tsv
+  445  grep -E$'(.*\t){11}Y\t' awsreviews.tsv
+  446  ls
+  447  grep -E $'(.*\t){11}Y\t' awsreviews.tsv
+  448  grep -E $'(.*\t){11}Y\t' awsreviews.tsv | wc -l
+  449  ls
+  450  grep -E $'(.*\t){11}Y\t' awsreviews.tsv | wc -l > counts.txt
+  451  echo $HOME
+  452  echo $SHELL
+  453  printenv
+  454  q
+  455  DATETIME = 'date "+%Y%m%d_%H%M%S"
+  456  q
+  457  q
+  458  q
+  459  q
+  460  q
+  461  q
+  462  qui
+  463  quit()
+  464  export DATETIME= 'date "+%Y%m%d_%H%M%S"'
+  465  export DATETIME= 'date "+%Y%m%d %H%M%S"'
+  466  echo DATETIME
+  467  export DATETIME='date "+%Y%m%d %H%m%S"'
+  468  echo $DATETIME
+  469  export DATETIME=`date "+%Y%m%d %H%m%S"`
+  470  echo $DATETIME
+  471  echo DATETIME
+  472  echo $DATETIME
+  473  dare
+  474  date
+  475  date > out.txt
+  476  ls'
+  477  ls
+  478  touch out.txt
+  479  ls
+  480  cat out.txt
+  481  vim out.txt
+  482  date 2> err.txt
+  483  ls
+  484  ls bob
+  485  ls bob 2> err.txt
+  486  cat err.txt
+  487  date out.txt 2> err.txt
+  488  cat out.txt
+  489  date > out.txt
+  490  cat out.txt
+  491  ls >> out.txt
+  492  ls
+  493  cat out.txt
+  494  ls
+  495  ls >> out2.txt
+  496  ls
+  497  cat out2.txt
+  498  man chmod
+  499  ls i
+  500  ls -i
+  501  echo $?
+  502  ls asd
+  503  echo $?
+  504  vim classfile.txt
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd ws1
+  509  ls
+  510  vim index.html
+  511  ls
+  512  cd ..
+  513  ls
+  514  ls -a
+  515  vi ~/.bashrc
+  516  ls
+  517  ls -a
+  518  ls -latr
+  519  man ls
+  520  lll
+  521  source .bashrc
+  522  ls
+  523  lll
+  524  source .bashrc
+  525  lll
+  526  source .bashrc
+  527  lll
+  528  ls
+  529  vim .bashrc
+  530  source .bashrc
+  531  vim .bashrc
+  532  source .bashrc
+  533  lll
+  534  vim .bashrc
+  535  lll
+  536  vim .bashrc
+  537  lll
+  538  ls
+  539  history
+  540  ls
+  541  cd ws1
+  542  ls
+  543  cd ..
+  544  cd ws2
+  545  ls
+  546  cd ..
+  547  ls
+  548  vim .bashrc
+  549  lll
+  550  source .bashrc
+  551  lll
+  552  ls -a
+  553  rm -rf .git
+  554  ls -a
+  555  ls -a ws1/
+  556  rm -rf ws1/.git
+  557  ls -a ws2
+  558  mkdir cs131
+  559  ls
+  560  mv ws1 cs131
+  561  ls
+  562  mv ws2 cs131
+  563  ls
+  564  cd cs131
+  565  ls
+  566  cd ~
+  567  ls
+  568  cd cs131
+  569  ls
+  570  git init
+  571  git add .
+  572  ls
+  573  ls ws1/
+  574  ls ws2/
+  575  mv ws2/awsreviews.tsv ../
+  576  ls ws2
+  577  ls ~
+  578  git add .
+  579  git commit -a -m "Test commit" 
+  580  git status
+  581  git push -u origin main
+  582  git push -u origin master
+  583  git remote add origin https://github.com/ilyaskiziloglu/cs131.git
+  584  git push -u origin master
+  585  cat ~/.ssh/id_rsa.pub
+  586  git remote add origin https://github.com/ilyaskiziloglu/cs131.git
+  587  git push -u origin master
+  588  git remote add origin git@github.com:ilyaskiziloglu/cs131.git
+  589  git push -u origin main
+  590  git remote set-url origin git@github.com:ilyaskiziloglu/cs131.git
+  591  git push -u origin main
+  592  git status
+  593  add .
+  594  git add .
+  595  git status
+  596  git checkout -b master
+  597  git branches
+  598  git --help
+  599  git branch
+  600  git push origin master
+  601  man git
+  602  ls
+  603  cd ~
+  604  ls
+  605  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  606  ls
+  607  gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+  608  man grep
+  609  grep 'verified' awsreviews.tsv 
+  610  grep -E $`(.*\t){11}Y\t`
+  611  grep -E $`(.*\t){11}Y\t` awsreviews.tsv
+  612  grep wc -l 'verified' awsreviews.tsv
+  613  ls
+  614  grep wc -l 'verified' awsreviews.tsv
+  615  grep wc -l 'verified' awsreviews.tsv
+  616  grep -E $'(.*\t){11}Y\t' awsreviews.tsv | wc -l
+  617  grep -E $'(.*\t){11}Y\t' awsreviews.tsv
+  618  grep -E $'(.*\t){11}Y\t' awsreviews.tsv | wc -w
+  619  ls
+  620  grep -E $'(.*\t){11}Y\t' awsreviews.tsv | wc -w > wordcount.txt
+  621  ls
+  622  cat wordcount.txt
+  623  man grep
+  624  ls
+  625  git --version
+  626  git status
+  627  ls -a
+  628  cd cs131
+  629  ls -a
+  630  ls
+  631  git status
+  632  ls
+  633  cd cs131
+  634  ls
+  635  ls -a
+  636  mkdir wstest
+  637  ls
+  638  cd ws1
+  639  ls -a
+  640  ls
+  641  cd ..
+  642  ls
+  643  git status
+  644  git add .
+  645  git status
+  646  ls
+  647  git commit -a -m "Trying to create and commit wstest folder" 
+  648  git status
+  649  git push -u origin master
+  650  ls
+  651  uptime
+  652  whoami
+  653  ls
+  654  cd ..
+  655  ls
+  656  cd ilyas23sp
+  657  ls
+  658  git status
+  659  cs 131
+  660  cd cs131
+  661  git status
+  662  ls
+  663  git status
+  664  cd wstest
+  665  ls
+  666  mkdir testfile.txt
+  667  git add .
+  668  git status
+  669  cd ..
+  670  ls
+  671  cd wstest
+  672  ls
+  673  cd ..
+  674  ls
+  675  git dd .
+  676  git add .
+  677  git status
+  678  git branch -u origin/master
+  679  git status
+  680  git add .
+  681  git status
+  682  ls
+  683  cd wstest
+  684  git status
+  685  git add .
+  686  git status
+  687  ls
+  688  cd ..
+  689  ls
+  690  mkdir ws3
+  691  ls
+  692  cd ..
+  693  ls
+  694  touch awsreviews.tsv
+  695  ls
+  696  man touch
+  697  ls
+  698  cat awsreviews.tsv
+  699  ls
+  700  cat wordcount.txt
+  701  git status
+  702  ls -a
+  703  cd cs 131
+  704  cd cs131
+  705  ls -a
+  706  git status
+  707  git add .
+  708  git status
+  709  ls
+  710  git status
+  711  cd cs131
+  712  ls
+  713  cd wstest
+  714  ls
+  715  cd ..
+  716  ls
+  717  cd ..
+  718  ls
+  719  grep -E `(.*\t){11}Y\t` awsrevies.tsv > wordcount.txt
+  720  grep -E $`(.*\t){11}Y\t` awsrevies.tsv > wordcount.txt
+  721  ls
+  722  grep -E $`(.*\t){11}Y\t` awsreviews.tsv > wordcount.txt
+  723  grep -E$`(.*\t){11}Y\t` awsreviews.tsv > wordcount.txt
+  724  grep -e$`(.*\t){11}Y\t` awsreviews.tsv > wordcount.txt
+  725  grep-E$`(.*\t){11}Y\t` awsreviews.tsv > wordcount.txt
+  726  grep-E$`(.*\t){11}Y\t` awsreviews.tsv
+  727  grep-E$'(.*\t){11}Y\t' awsreviews.tsv
+  728  grep -E$'(.*\t){11}Y\t' awsreviews.tsv
+  729  grep -E$'(.*\t){11}Y\t' awsreviews.tsv > wordcount.txt
+  730  ls
+  731  grep -E$'(.*\t){11}Y\t' awsreviews.tsv > wordcount.txt
+  732  ls
+  733  grep -E$'(.*\t){11}Y\t' awsreviews.tsv > wordcount.txt
+  734  grep-E$'(.*\t){11}Y\t' awsreviews.tsv > wordcount.txt
+  735  grep -e$'(.*\t){11}Y\t' awsreviews.tsv > wordcount.txt
+  736  cat wordcount.txgt
+  737  cat wordcount.txt
+  738  cat awsreviews.txt
+  739  cat awsreviews.tsv
+  740  grep -e$'(.*\t){11}Y\t' awsreviews.tsv > wordcount.txt
+  741  cat wordcount.txt
+  742  grep -e$'(.*\t){11}Y\t' awsreviews.tsv | wc -l >  wordcount.txt
+  743  cat wordcount.txt
+  744  grep -e$'(.*\t){11}Y\t' awsreviews.tsv | wc -l >  wordcount.txt
+  745  cat wordcount.txt
+  746  grep -E$'(.*\t){11}Y\t' awsreviews.tsv | wc -l >  wordcount.txt
+  747  grep -e$'(.*\t){11}Y\t' awsreviews.tsv | wc -l >  wordcount.txt
+  748  cat wordcount.txt
+  749  grep -e$ '(.*\t){11}Y\t' awsreviews.tsv | wc -l >  wordcount.txt
+  750  grep -e$'(.*\t){11}Y\t' awsreviews.tsv | wc -l >  wordcount.txt
+  751  grep -e$`(.*\t){11}Y\t` awsreviews.tsv | wc -l >  wordcount.txt
+  752  grep -e$'(.*\t){11}Y\t' awsreviews.tsv | wc -l >  wordcount.txt
+  753  cat wordcount.txt
+  754  grep -e$'(.*\t){11}.*\t' awsreviews.tsv | wc -l >  wordcount.txt
+  755  cat wordcount.txt
+  756  grep -e$'(.*\t){11}.*\t' awsreviews.tsv | wc -l >  wordcount.txt
+  757  cat wordcount.txt
+  758  grep -e$'(.*\t){1}.*' awsreviews.tsv | wc -l >  wordcount.txt
+  759  cat wordcount.txt
+  760  grep -e$'(.*\t){1}.*' awsreviews.tsv | wc -l >wordcount.txt
+  761  cat wordcount.txt
+  762  grep -e$'(.*\t){1}.*' awsreviews.tsv
+  763  cat wordcount.txt
+  764  grep -e'(.*\t){1}.*' awsreviews.tsv
+  765  grep -e'(.*\t){1}.*' awsreviews.tsv | wc -l >wordcount.tt
+  766  grep -e'(.*\t){1}.*' awsreviews.tsv | wc -l >wordcount.txt
+  767  ls
+  768  cat wordcount.txt
+  769  ls
+  770  rm wordcount.tt
+  771  ls
+  772  cat cmds.log
+  773  ls
+  774  grep -e'(.*\t){1}.*' awsreviews.tsv | wc -l >wordcount.txt
+  775  grep -e$'(.*\t){1}\t' awsreviews.tsv | wc -l > wordcount.txt
+  776  cat wordcount.txt
+  777  rm wordcount.txt
+  778  ls
+  779  grep -e$'(.*\t){1}\t' awsreviews.tsv | wc -l > wordcount.txt
+  780  ls
+  781  cat wordcount.txt
+  782  vim .bashrc
+  783  vim .bash_aliases
+  784  cat .bash_aliases
+  785  vim .bash_aliases
+  786  cat .bash_aliases
+  787  vim .bash_aliases
+  788  source .bashrc
+  789  lll
+  790  echo "$path"
+  791  echo "$PATH"
+  792  echo `$PATH`
+  793  ls
+  794  id -u
+  795  vim /etc/group
+  796  vim nano/etc/shadow
+  797  sudo id -u
+  798  vim /etc/passwd
+  799  sudo /etc/sudoers
+  800  su
+  801  visudo
+  802  sudo visudo
+  803  ls -
+  804  ls -l
+  805  cd cs131
+  806  ls
+  807  ls -a
+  808  ls -la
+  809  ls -l
+  810  cat /etc/greoup
+  811  cat /etc/griup
+  812  cat /etc/group
+  813  shopt -s cdspell
+  814  cd wd1
+  815  cd mk
+  816  cd mk3
+  817  cd mk2
+  818  cd gs1
+  819  cd bg2
+  820  ls
+  821  cd ..
+  822  ls
+  823  cd ..
+  824  ls
+  825  cd ~
+  826  cd /
+  827  ls
+  828  lscpu
+  829  cat /proc/cpuinfo
+  830  cd ~
+  831  ls
+  832  clear
+  833  ls -la
+  834  git status
+  835  ls
+  836  git status
+  837  cd c131
+  838  cd cs131
+  839  ls
+  840  cd ws1
+  841  ls
+  842  cd ..
+  843  ls
+  844  cd ws2
+  845  ls
+  846  cd ..
+  847  ls
+  848  cd ..
+  849  ls
+  850  grep -e$'(.*\t){1}' awsreviews.tsv | wc -l 2> wordcount.txt
+  851  grep -e'(.*\t){1}' awsreviews.tsv | wc -l 2> wordcount.txt
+  852  grep -e$'(.*\t){1}' awsreviews.tsv | wc -l 2> wordcount.txt
+  853  ls
+  854  man cp
+  855  ls
+  856  ls -h
+  857  ls -lh
+  858  ls
+  859  git status
+  860  cd cs131
+  861  ls
+  862  git add .
+  863  git status
+  864  ls ws3/
+  865  ls wstest/
+  866  cat wstest/testfile.txt/
+  867  cd wstest/
+  868  ls
+  869  ls testfile.txt/
+  870  rm testfile.txt/
+  871  rm -rf testfile.txt/
+  872  ls
+  873  cd ..
+  874  cd wstest/
+  875  vim sample.txt
+  876  cd ..
+  877  git add .
+  878  git status
+  879  grep -e $'(.*\t){11}Y\t' awsreviews.txt | wc -l > wordcount.txt
+  880  ls
+  881  cd ..
+  882  ls
+  883  grep -e $'(.*\t){11}Y\t' awsreviews.tsv | wc -l > wordcount.txt
+  884  cat wordcount.txt
+  885  less awsreviews.tsv 
+  886  grep -E $'(.*\t){11}Y\t' awsreviews.tsv | wc -l > wordcount.txt
+  887  cat wordcount.txt
+  888  grep -E $'(.*\t){1}' awsreviews.tsv | wc -l > wordcount.txt
+  889  less wordcount.txt
+  890  cat wordcount.txt
+  891  cd ~
+  892  ls
+  893  less testtextfile.txt 
+  894  vim testtextfile.txt 
+  895  ls
+  896  cd ~
+  897  ls -lh
+  898  git status
+  899  ls
+  900  ls -l
+  901  ls -lh
+  902  cat testtextfile.txt 
+  903  cut -w testtextfile.txt > wordcount.txt
+  904  cut --help
+  905  man cut
+  906  cut -b testtextfile.txt > wordcount.txt
+  907  cut -b 5, 6, 7 testtextfile.txt > wordcount.txt
+  908  cut -b 1, , 5, 7 testtextfile.txt > wordcount.txt
+  909  cut -b 1,2,3 testtextfile.txt > wordcount.txt
+  910  cat wordcount.txt
+  911  less testtextfile.txt 
+  912  cut -b 1,2,3,4,5 testtextfile.txt > wordcount.txt
+  913  cat wordcount.txt
+  914  cut -b 5,6,7 testtextfile.txt > wordcount.txt
+  915  cat wordcount.txt
+  916  cut -c 4-12 awsreviews.txt > wordcount.txt
+  917  cut -c 4-12 awsreviews.tsv > wordcount.txt
+  918  less wordcount.txt
+  919  less wordcount.txt 
+  920  vim wordcount.txt
+  921  ls
+  922  cut -c 4-12 awsreviews.tsv > customerIDs.txt
+  923  ls
+  924  cut -c 4-12 awsreviews.tsv > customerIDs.txt
+  925  less customerIDs.txt
+  926  less wordcount.txt 
+  927  sort -h wordcount.txt 
+  928  less wordcount.txt 
+  929  less wordcount.txt 
+  930  cat wordcount.txt
+  931  cat awsreviews.tsv
+  932  sort -h wordcount.txt > sortedcustIDs.txt
+  933  less sortedcustIDs.txt 
+  934  ls
+  935  less sortedcustIDs.txt 
+  936  less customerIDs.txt 
+  937  sort -h customerIDs.txt > sortedcustIDs.txt 
+  938  less customerIDs.txt 
+  939  less sortedcustIDs.txt 
+  940  ls
+  941  uniq -c sortedcustIDs.txt 
+  942  sort -h customerIDs.txt > sortedcustIDs.txt | uniq -c sortedcustIDs.txt | sort -h sortedcustIDs.txt 
+  943  less sortedcustIDs.txt 
+  944  uniq -c sort -r sortedcustIDs.txt 
+  945  uniq -c sortedcustIDs.txt 
+  946  sort -h customerIDs.txt > sortedcustIDs.txt | sort -h `uniq -c sortedcustIDs.txt`
+  947  less sortedcustIDs.txt 
+  948  ls
+  949  cat cmds.log
+  950  ls
+  951  less guaranteedanswer.txt 
+  952  ls
+  953  cat wordcount.txt
+  954  vim wordcount.txt
+  955  man rm
+  956  rm wordcount.txt
+  957  ls
+  958  cut -c 29-39 awsreviews.tsv > unsortedprodids.txt
+  959  less unsortedprodids.txt 
+  960  cut -c 27-37 awsreviews.tsv > unsortedprodids.txt
+  961  less unsortedprodids.txt 
+  962  cut -c 26-37 awsreviews.tsv > unsortedprodids.txt
+  963  less unsortedprodids.txt 
+  964  qqq
+  965  cut -c 27-37 awsreviews.tsv > unsortedprodids.txt
+  966  less unsortedprodids.txt
+  967  ls
+  968  cat cmds.log
+  969  ls
+  970  sort -r --parallel unsortedprodids.txt > sortedprodids.txt
+  971  sort -r --parallel=unsortedprodids.txt > sortedprodids.txt
+  972  sort -r unsortedprodids.txt > sortedprodids.txt
+  973  less sortedprodids.txt 
+  974  history >> cmds.log
+  975  less cmds.log
+  976  cat cmds.log
+  977  uniq -c sortedprodids.txt
+  978  ls
+  979  sort -n sortedprodids.txt
+  980  uniq -c sortedprodids.txt
+  981  less sortedcustIDs.txt 
+  982  sort -h customerIDs.txt > sortedcustIDs.txt | uniq -c | sort -h
+  983  less sortedcustIDs.txt 
+  984  uniq -c sortedcustIDs.txt > guaranteedanswer.txt
+  985  less guaranteedanswer.txt 
+  986  sort -r guaranteedanswer.txt 
+  987  less guaranteedanswer.txt 
+  988  sort -n guaranteedanswer.txt 
+  989  history > cmds.log
+  990  less cmds.log
+  991  ls
+  992  less guaranteedanswer.txt 
+  993  cat guaranteedanswer.txt 
+  994  ls
+  995  cat sortedprodids.txt 
+  996  ls
+  997  less unsortedprodids.txt 
+  998  ls
+  999  mkdir ws3productid
+ 1000  ls
+ 1001  man cp
+ 1002  ls
+ 1003  cp awsreviews.tsv ws3productid
+ 1004  ls
+ 1005  cd ws3productid
+ 1006  ls
+ 1007  ls -a
+ 1008  ls
+ 1009  cut -c 26-36 awsreviews.tsv > productidcut.txt
+ 1010  ls
+ 1011  less productidcut.txt 
+ 1012  cut -c 27-36 awsreviews.tsv > productidcut.txt
+ 1013  less productidcut.txt 
+ 1014  sort -h productidcut.txt > humansortedprodids.txt
+ 1015  less humansortedprodids.txt 
+ 1016  uniq -c humansortedprodids.txt > uniquecounterprodid.txt
+ 1017  less uniquecounterprodid.txt 
+ 1018  sort -n uniquecounterprodid.txt 
+ 1019  ls
+ 1020  history > cmds.log
