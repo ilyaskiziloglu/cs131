@@ -1,0 +1,92 @@
+  836  grep 50122160 awsreviews.tsv | cut -f2 > /cs131/ws4/customers/custidoutput.txt 
+  837  grep 50122160 awsreviews.tsv | cut -f2 > cs131/ws4/customers/custidoutput.txt 
+  838  grep "5012216"0 awsreviews.tsv | cut -f2 > cs131/ws4/customers/custidoutput.txt 
+  839  grep "50122160" awsreviews.tsv | cut -f2 > cs131/ws4/customers/custidoutput.txt 
+  840  ls
+  841  grep "50122160" awsreviews.tsv | cut -f9 > cs131/ws4/customers/custidoutput.txt 
+  842  ls
+  852  grep "043935806" awsreviews.tsv | cut -f9 > cs131/ws4/products/prodidoutput.txt
+  861  less prodidoutput.txt 
+  862  wc < prodidoutput.txt > prodidlinecount.txt
+  863  wc -l < prodidoutput.txt > prodidlinecount.txt
+  864  ls
+  865  less prodidlinecount.txt 
+  866  wc -l prodidoutput.txt 
+  867  less prodidoutput.txt 
+  868  ls
+  869  paste -s -d "+" prodidoutput.txt | bc | cat prodidlinecount.txt | paste -s -d "/" | bc > custscoreoutput.txt
+  870  ls
+  871  paste -s -d "+" prodidoutput.txt | bc | cat prodidlinecount.txt | paste -s -d "/" | bc > prodscoreoutput.txt
+  872  ls
+  891  grep "043935806" awsreviews.tsv | cut -f9 > cs131/ws4/products/prodidoutput.txt
+  892  cd ~
+  893  grep "043935806" awsreviews.tsv | cut -f9 > cs131/ws4/products/prodidoutput.txt
+  894  cd cs131/ws4
+  899  wc -l < prodidoutput.txt > linecount.txt
+  907  cd products/
+  908  ls
+  909  less computednum.txt 
+  910  rm computednum.txt 
+  911  less linecount.txt 
+  912  less prodidlinecount.txt 
+  913  rm prodidlinecount.txt
+  918  paste -s -d "+" prodidoutput.txt | bc > sum.txt
+  919  less sum.txt 
+  920  cat sum.txt linecount.txt | paste -s -d "/" | bc > prodfinaloutput.txt
+  935  wc < custidoutput.txt > linecount.txt
+  936  less linecount.txt 
+  937  wc < custidoutput.txt > linecount.txt
+  938  less linecount.txt 
+  939  cd ~
+  940  grep "50122160" awsreviews.tsv | cut -f9 > cs131/ws4/customers/
+  941  grep "50122160" awsreviews.tsv | cut -f9 > cs131/ws4/customers
+  949  less linecount.txt 
+  950  less custidoutput.txt 
+  951  rm custidoutput.txt 
+  952  rm linecount.txt 
+  956  grep "50122160" awsreviews.tsv | cut -f9 > cs131/ws4/customers/custidratingdump.txt
+  964  less custidratingdump.txt 
+  965  wc < custidratingdump.txt > linecount.txt
+  966  ls
+  967  less linecount.txt 
+  968  wc -l < custidratingdump.txt > linecount.txt
+  969  lc
+  970  ls
+  971  less linecount.txt 
+  972  cat custidratingdump.txt linecount.txt | paste -s -d "/" | bc > ratingoutput.txt
+  973  ls
+  974  less linecount.txt 
+  975  less custidratingdump.txt 
+  976  paste -s -d "+" custidratingdump.txt | bc > sum.txt
+  977  ls
+  978  less ratingoutput.txt 
+  979  less sum.txt 
+  980  cat sum.txt linecount.txt | paste -s -d "/" | bc > ratingoutput.txt
+  981  ls
+  982  less ratingoutput.txt 
+ 1000  cd cs131
+ 1001  ls
+ 1002  cd ws4
+ 1003  ls
+ 1004  less ws4script.txt 
+ 1005  cd customers/
+ 1006  ls
+ 1007  less custidratingdump.txt 
+ 1008  less linecount.txt 
+ 1009  less ratingoutput.txt 
+ 1010  less sum.txt 
+ 1011  less ratingoutput.txt 
+ 1012  mv ratingoutput.txt 50122160finaloutput.txt
+ 1013  ls
+ 1014  less 50122160finaloutput.txt 
+ 1015  cd ..
+ 1016  ls
+ 1017  cd products/
+ 1018  ls
+ 1019  less linecount.txt 
+ 1020  less prodidoutput.txt 
+ 1021  less sum.txt 
+ 1022  less prodfinaloutput.txt 
+ 1023  mv prodfinaloutput.txt 043935806finaloutput.txt
+ 1024  ls
+ 1025  less 043935806finaloutput.txt 
