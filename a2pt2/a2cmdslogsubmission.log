@@ -1,0 +1,23 @@
+ 1018  grep repl originalextendnolf2.tsv 
+ 1019  grep -i "replied_to" originalextendnolf2.tsv 
+ 1020  history
+ 1021  grep -i "replied_to" originalextendnolf2.tsv 
+ 1022  grep -i "replied_to" originalextendnolf2.tsv | cut -f2 | sort -n | uniq -c | sort -hr | head -n 10 > q1resolved.txt
+ 1023  ls
+ 1024  less q1resolved.txt 
+ 1025  ls
+ 1026  grep -i in_reply_to originalextendnolf2.tsv 
+ 1027  cut -f2, 5-7 originalextendnolf2.tsv 
+ 1028  cut -f2, -f2 5-7 originalextendnolf2.tsv 
+ 1029  cut -f 2,5-7 originalextendnolf2.tsv 
+ 1030  cut -f6 originalextendnolf2.tsv | sort -n | uniq -c | sort -hr | head -n 11 > q2test.txt
+ 1039  cut -f5 extendnolf2.tsv 
+ 1040  cut -f6 extendnolf2.tsv 
+ 1041  ls
+ 1042  cut -f5 extendnolf2.tsv 
+ 1043  grep -i "type=retweeted" extendnolf2.tsv | cut -f2 | sort -n | uniq -c | sort -hr | head -n 10 > q3resolved.txt
+ 1044  ls
+ 1045  less q3resolved.txt 
+ 1046  grep 1060440219097423872 extendnolf2.tsv 
+ 1047  ls
+ 1048  cut -f4 extendnolf2.tsv | sort -h | uniq -c | sort -hr | head -n 31 > q4resolved.txt

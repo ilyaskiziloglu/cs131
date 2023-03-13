@@ -1,0 +1,957 @@
+  494  ls
+  495  less originaluserscut.txt 
+  496  sort -n originaluserscut.txt | uniq -c | sort -h > originaluserscut2.txt
+  497  less originaluserscut2.txt 
+  498  sort -r originaluserscut2.txt > originaluserscut.txt
+  499  less originaluserscut.txt 
+  500  sort -n originaluserscut.txt > originaluserscut2.txt
+  501  cd cs131/as2
+  502  ls
+  503  grep "replied_to" originalextendnolf2.tsv | cut -f2 | sort -n | uniq -c | sort -hr | head -n 10 > q1answer.txt
+  504  ls
+  505  less q1answer.txt 
+  506  cd cs131/as2
+  507  ls
+  508  grep -i "replied_to" originalextendnolf2.tsv | cut -f5 | sort -n | uniq -c | sort -hr | head -n 10 > q1answer.txt
+  509  ls
+  510  less q1answer.txt 
+  511  less extendnolf2.tsv 
+  512  grep "type=retweeted" extendnolf2.tsv | cut -f2 | sort -n | uniq -c | sort -hr | head -n 10 > q3answer.txt
+  513  less q3answer.txt 
+  514  ls
+  515  less extendnolf2.tsv 
+  516  cut -f4 extendnolf2.tsv q4cut.txt
+  517  cut -f4 extendnolf2.tsv > q4cut.txt
+  518  ls
+  519  sort -h q4cut.txt | uniq -c > q4sort.txt
+  520  ls
+  521  less q4sort.txt 
+  522  sort -hr q4sort.txt > q4finalcandidate.txt
+  523  less q4finalcandidate.txt 
+  524  mv q4finalcandidate.txt q4answer.txt
+  525  ls
+  526  less q1answer.txt 
+  527  less q3answer.txt 
+  528  less q4answer.txt 
+  529  head -n 30 q4answer.txt > q4answercandidate.txt
+  530  less q4answercandidate.txt 
+  531  ls
+  532  mv q4answercandidate.txt q4answer.txt
+  533  less q4answer.txt 
+  534  ls
+  535  mv q1answer.txt q1answercandidate.txt
+  536  ls
+  537  ls
+  538  cd cs131/ws5
+  539  ls
+  540  less cmdsws5.log 
+  541  vim customer
+  542  ls
+  543  vim customeriddump.sh 
+  544  less cmdsws5.log 
+  545  cd ..
+  546  ls
+  547  whoami
+  548  id -g
+  549  id ilyas23sp
+  550  lscpu
+  551  cd cs131/as2/
+  552  ls
+  553  cat nolf2twets.tsv 
+  554  ls
+  555  less nolf2twets.tsv 
+  556  cd cs131/as2
+  557  ls
+  558  cat originalnolf2twets.tsv 
+  559  less originalnolf2twets.tsv 
+  560  man init
+  561  clear
+  562  ls
+  563  cd cs131
+  564  cd as2
+  565  ls
+  566  cut -f2 originalnolf2twets.tsv | sort -h > originaluserscut.txt
+  567  less originaluserscut.txt 
+  568  uniq -c originaluserscut.txt 
+  569  sort -n originaluserscut.txt 
+  570  less originaluserscut.txt 
+  571  ls
+  572  less original
+  573  less originaluserscut.txt 
+  574  uniq -c originaluserscut.txt | sort -hg | sort -r > originaluserscut.txt 
+  575  uniq -c originaluserscut.txt | sort -hn | sort -r > originaluserscut.txt 
+  576  uniq -c originaluserscut.txt | sort -hr > originaluserscut.txt 
+  577  ls
+  578  less originaluserscut.txt 
+  579  cut -f2 originalnolf2twets.tsv > originaluserscut.txt 
+  580  ls
+  581  less originaluserscut.txt 
+  582  less original
+  583  less originaluserscut.txt 
+  584  ls
+  585  man sort
+  586  ls
+  587  cd cs131/as2
+  588  ls
+  589  less originalnolf2twets.tsv 
+  590  cs cs131/as2
+  591  cd cs131/as2
+  592  ls
+  593  less originalnolf2twets.tsv 
+  594  ls
+  595  less nolf2twets.tsv 
+  596  ls
+  597  cut -f2 originalnolf2twets.tsv | sort -n > output.txt
+  598  less output.txt 
+  599  uniq -c output.txt > unique.txt
+  600  less unique.txt 
+  601  sort -h unique.txt > hsort.txt
+  602  less hsort.txt 
+  603  man sort
+  604  ls
+  605  sort -n originalnolf2twets.tsv | uniq -c | sort -r > output.txt
+  606  less output.txt 
+  607  cut -f2 originalnolf2twets.tsv | sort -n  | uniq -c | sort -r > output.txt
+  608  less output.txt 
+  609  cut -f2 originalnolf2twets.tsv | sort -n  | uniq -c | sort -hr > output.txt
+  610  less output.txt 
+  611  ls
+  612  rm hsort.txt output.txt unique.txt 
+  613  ls
+  614  cd ..
+  615  ls
+  616  rm -r as2
+  617  ls
+  618  mkdir as2
+  619  ls
+  620  cd as2
+  621  ls
+  622  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv extendnolf2.tsv
+  623  ls
+  624  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv originalextendnolf2.tsv
+  625  ls
+  626  cd cs131/as2
+  627  ls
+  628  less originalextendnolf2.tsv 
+  629  cd cs131/as2
+  630  ls
+  631  less extendnolf2.tsv 
+  632  cd cs131/as2
+  633  ls
+  634  less extendnolf2.tsv 
+  635  cd cs131/as2
+  636  ls
+  637  less originalextendnolf2.tsv 
+  638  cd cs131/as2
+  639  l;s
+  640  ls
+  641  less q1answer
+  642  less q1answercandidate.txt 
+  643  mv q1answercandidate.txt q2answercandidate.txt
+  644  ls
+  645  less q1answer.txt 
+  646  cd cs131/as2
+  647  ls
+  648  less q1answer.txt 
+  649  history
+  650  ls
+  651  less q3answer.txt 
+  652  less q4answer.txt 
+  653  cd cs131/as2
+  654  ls
+  655  cd ..
+  656  cd ws4
+  657  ls
+  658  cd ..
+  659  ls
+  660  cd ws5
+  661  ls
+  662  vim customeriddump.sh 
+  663  ls
+  664  cd cs131
+  665  ls
+  666  cd ws1
+  667  ls
+  668  cd ws1
+  669  ls
+  670  less textfile.txt 
+  671  cd ..
+  672  ls
+  673  cd ./
+  674  ls
+  675  cd ./ls
+  676  cd ..
+  677  ;s
+  678  ls
+  679  cd ws2
+  680  ls
+  681  less counts.txt/
+  682  cd cs131/
+  683  ls
+  684  mkdir emptydir
+  685  ls
+  686  rm emptydir/
+  687  rm -r emptydir
+  688  ls
+  689  mkdir test
+  690  ls
+  691  cd test
+  692  ls
+  693  mkdir folder1
+  694  ls
+  695  ls -lh
+  696  ls al
+  697  ls -al
+  698  man ls
+  699  ls
+  700  cd ..
+  701  ls
+  702  cd test/
+  703  ls
+  704  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gzLinks to an external site.
+  705  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  706  ls
+  707  rm amazon_reviews_us_Books_v1_02.tsv.gz 
+  708  ls
+  709  man wget
+  710  sftp
+  711  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  712  ls
+  713  less amazon_reviews_us_Books_v1_02.tsv.gz 
+  714  wc -l < amazon_reviews_us_Books_v1_02.tsv.gz 
+  715  cd ~
+  716  ls
+  717  wc -l < awsreviews.tsv 
+  718  ls
+  719  wc -l < awsreviews.tsv 
+  720  cd cs131/test
+  721  ls
+  722  man gunzip
+  723  gunzip -dv amazon_reviews_us_Books_v1_02.tsv.gz amznrevies.tsv
+  724  gunzip -dv amazon_reviews_us_Books_v1_02.tsv.gz 
+  725  gunzip -d amazon_reviews_us_Books_v1_02.tsv.gz amznreviews.tsv
+  726  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+  727  ls
+  728  rm amazon_reviews_us_Books_v1_02.tsv 
+  729  ls
+  730  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  731  ls
+  732  man gunzip
+  733  gunzip -k amazon_reviews_us_Books_v1_02.tsv.gz amznrevies.tsv
+  734  gunzip -k amazon_reviews_us_Books_v1_02.tsv.gz > amznrevies.tsv
+  735  gunzip -dk amazon_reviews_us_Books_v1_02.tsv.gz > amznrevies.tsv
+  736  ls
+  737  rm amznrevies.tsv 
+  738  rm amazon_reviews_us_Books_v1_02.tsv
+  739  ls
+  740  gunzip -k amazon_reviews_us_Books_v1_02.tsv.gz 
+  741  ls
+  742  cd ..
+  743  ls
+  744  cd test
+  745  ls
+  746  ls -lh
+  747  touch monkeys.txt
+  748  ls -lh
+  749  sftp
+  750  ls
+  751  less warntrimmed.csv 
+  752  grep "onsemi" warntrimmed.csv 
+  753  grep "lam" warntrimmed.csv 
+  754  grep "onsemi" warntrimmed.csv 
+  755  grep "on semi" warntrimmed.csv 
+  756  grep "on-semi" warntrimmed.csv 
+  757  grep -i "on-semi" warntrimmed.csv 
+  758  grep -i "onsemi" warntrimmed.csv 
+  759  grep -i "salesforce" warntrimmed.csv 
+  760  ls
+  761  grep closure warntrimmed.csv 
+  762  grep "closure" warntrimmed.csv 
+  763  grep -i closure  warntrimmed.csv 
+  764  clear
+  765  grep -i closure  warntrimmed.csv 
+  766  grep -Ei 'closure & San Jose'  warntrimmed.csv 
+  767  grep -Ei 'closure | San Jose'  warntrimmed.csv 
+  768  grep -Ei 'closure && San Jose'  warntrimmed.csv 
+  769  grep -Ei 'closure\|San Jose'  warntrimmed.csv 
+  770  man grep
+  771  grep -ei "closure" -ei "san jose" warntrimmed.csv 
+  772  grep -ei "closure" -ei "san jose"
+  773  grep -ei 'closure' -ei 'san jose' warntrimmed.csv 
+  774  grep -e 'closure' "San Jose" warntrimmed.csv 
+  775  grep -ie 'closure' "San Jose" warntrimmed.csv 
+  776  grep -i 'closure' "San Jose" warntrimmed.csv 
+  777  grep -i "San Jose" warntrimmed.csv 
+  778  grep -i "western" warntrimmed.csv 
+  779  grep -i "western" warntrimmed.csv | cut -d , -f6
+  780  grep -i "western" warntrimmed.csv | cut -d , -f7
+  781  grep -i "western" warntrimmed.csv | cut -d , -f7 > wdoutput.txt
+  782  ls
+  783  less wdoutput.txt 
+  784  paste -s -d "+" wdoutput.txt | bc
+  785  rm wdoutput.txt 
+  786  ls
+  787  rm amazon_reviews_us_Books_v1_02.tsv
+  788  ls
+  789  ls -lh
+  790  ls
+  791  rm folder1/
+  792  rm folder1
+  793  rm -r folder1
+  794  ls
+  795  less monkeys.txt 
+  796  rm monkeys.txt 
+  797  ls
+  798  less warntrimmed.csv 
+  799  grep -i "western digital" warntrimmed.csv 
+  800  grep -i "seagate" warntrimmed.csv 
+  801  clear
+  802  ls
+  803  man lt
+  804  man ls
+  805  echo $shell
+  806  echo $SHELL
+  807  mkdir test
+  808  ls
+  809  rm test
+  810  ls
+  811  rmdir test
+  812  ls
+  813  man egrep
+  814  man tr
+  815  man grep
+  816  ls
+  817  ls ?.csv
+  818  touch test.csv
+  819  touch test2.csv
+  820  ls
+  821  touch mapple.txt
+  822  touch mbapple.txt
+  823  touch mcapple.txt
+  824  ls
+  825  ls *.txt
+  826  ls ?.txt
+  827  ls ????.csv
+  828  ls * .csv
+  829  ls *.csv
+  830  ls ./*.txt
+  831  ls .*.txt
+  832  ls /*.txt
+  833  man tar
+  834  ls
+  835  rm mapple.txt mbapple.txt mcapple.txt test2.csv test.csv 
+  836  ls
+  837  clear
+  838  ls
+  839  more warntrimmed.csv 
+  840  head 
+  841  clear
+  842  ls
+  843  head -10 warntrimmed.csv 
+  844  head warntrimmed.csv 
+  845  head -d warm
+  846  man head
+  847  head -10 warntrimmed.csv 
+  848  sl
+  849  ls
+  850  head amazon_reviews_us_Books_v1_02.tsv.gz 
+  851  clear
+  852  ls
+  853  gunzip amazon_reviews_us_Books_v1_02.tsv.gz amznreviews.tsv
+  854  man unzip
+  855  unzip -d --help
+  856  man unzip
+  857  unzip -d  amazon_reviews_us_Books_v1_02.tsv amzn.tsv
+  858  unzip -d  amazon_reviews_us_Books_v1_02.tsv ./amzn.tsv
+  859  ls
+  860  head -n 15 warntrimmed.csv 
+  861  head warntrimmed.csv 
+  862  nano warntrimmed.csv 
+  863  vi warntrimmed.csv 
+  864  vim warntrimmed.csv 
+  865  cd cs131/a2
+  866  ls
+  867  ls
+  868  cd cs131
+  869  ls
+  870  cd as2
+  871  ls
+  872  cd ..
+  873  ls
+  874  mv as2 a2
+  875  ls
+  876  cd as2
+  877  cd a2
+  878  ls
+  879  cd ..
+  880  ls
+  881  mv as1 a1
+  882  ls
+  883  cd c2
+  884  ls
+  885  cd a2
+  886  ls
+  887  clear
+  888  less originalextendnolf2.tsv 
+  889  less q1answer.txt 
+  890  ls
+  891  grep -i "type=replied_to" originalextendnolf2.tsv | cut -d $'\t' -f2 > q1authorcut.txt
+  892  less q1authorcut.txt 
+  893  grep 888042960549552129 originalextendnolf2.tsv 
+  894  ls
+  895  less q1authorcut.txt 
+  896  grep 1317220261050056704 originalextendnolf2.tsv 
+  897  ls
+  898  sort -n q1authorcut.txt | uniq -c | sort -hr > q1candidate.txt
+  899  less q1candidate.txt 
+  900  sort -n q1authorcut.txt | uniq -c | sort -hr > q1authorcut.txt 
+  901  less q1authorcut.txt 
+  902  ls
+  903  rm q1authorcut.txt 
+  904  ls
+  905  less q1answer.txt 
+  906  less q1candidate.txt 
+  907  head -n 10 q1candidate.txt 
+  908  less q1candidate.txt 
+  909  head -n 10 < q1candidate.txt 
+  910  less q1candidate.txt 
+  911  head -n -10 q1candidate.txt > q1cand.txt
+  912  less q1cand.txt 
+  913  head 10 q1cand.txt 
+  914  less q1cand.txt 
+  915  head 10 q1candidate.txt > q1cand.txt
+  916  head -n 10 q1candidate.txt > q1cand.txt
+  917  less q1cand.txt 
+  918  mv q1cand.txt q1candidate.txt 
+  919  ls
+  920  less q1candidate.txt 
+  921  less q1answer.txt 
+  922  ls
+  923  less q1answer.txt 
+  924  grep retweeted originalextendnolf2.tsv 
+  925  grep retweet originalextendnolf2.tsv 
+  926  grep type=retweet originalextendnolf2.tsv 
+  927  grep type= originalextendnolf2.tsv 
+  928  grep 45379403 originalextendnolf2.tsv 
+  929  ls
+  930  grep "retwet" extendnolf2.tsv 
+  931  grep "retweet" extendnolf2.tsv 
+  932  ls
+  933  grep "type=retweeted" extendnolf2.tsv | cut -f2 > q3authorcut.txt
+  934  less q3authorcut.txt 
+  935  sort -n q3authorcut.txt | uniq -c | sort -hr | head -n 10 > q3candidate.txt
+  936  less q3candidate.txt 
+  937  ls
+  938  rm q3authorcut.txt 
+  939  ls
+  940  less q3answer.txt 
+  941  grep 1060440219097423872 extendnolf2.tsv 
+  942  ls
+  943  s
+  944  ls
+  945  cut -f4 extendnolf2.tsv | sort -h | uniq -c | sort -hr | head -n 30 > q4candidate.txt
+  946  less q4candidate.txt 
+  947  ls
+  948  grep "type=replied_to" originalextendnolf2.tsv | cut -f1, 2, 5 > q2test.txt
+  949  grep "type=replied_to" originalextendnolf2.tsv | cut -f1-2,5 > q2test.txt
+  950  ls
+  951  less q2test.txt 
+  952  grep "type=replied_to" originalextendnolf2.tsv | cut -f1-2,5-6 > q2test.txt
+  953  less q2test.txt 
+  954  cd cs131/a2
+  955  ls
+  956  less q2test.txt 
+  957  ls
+  958  cd cs131/a2
+  959  ls
+  960  less extendnolf2.tsv 
+  961  cd cs131/a2
+  962  ls
+  963  less q1candidate.txt 
+  964  less q3answer.txt 
+  965  less q3candidate.txt 
+  966  ls
+  967  less q4answer.txt 
+  968  rm q4sort.txt q4cut.txt 
+  969  ls
+  970  less q2
+  971  less q2answercandidate.txt 
+  972  cd cs131/a2
+  973  ls
+  974  less originalextendnolf2.tsv 
+  975  ls
+  976  less originalextendnolf2.tsv 
+  977  grep type= originalextendnolf2.tsv 
+  978  ls
+  979  less originalextendnolf2.tsv 
+  980  cut -f6 originalextendnolf2.tsv 
+  981  less originalextendnolf2.tsv 
+  982  cut -f5 originalextendnolf2.tsv 
+  983  less originalextendnolf2.tsv 
+  984  cut -f6 originalextendnolf2.tsv 
+  985  less originalextendnolf2.tsv 
+  986  cd cs131/a2
+  987  ls
+  988  less q2
+  989  less q2test.txt 
+  990  cut -f5-6 originalextendnolf2.tsv 
+  991  cut -f6 originalextendnolf2.tsv | sort -n | uniq -c | sort -hr | head -n 10 > q2col6cut.txt
+  992  less q2col6cut.txt 
+  993  ls
+  994  less q1answer.txt 
+  995  grep 1240682348120866816 originalextendnolf2.tsv 
+  996  ls
+  997  less q2test.txt 
+  998  less q2col6cut.txt 
+  999  ls
+ 1000  cd cs131
+ 1001  l
+ 1002  ls
+ 1003  cd a2
+ 1004  ls
+ 1005  clear
+ 1006  ls
+ 1007  less q1answer.txt 
+ 1008  mkdir oldwork
+ 1009  mv q1answer.txt q1candidate.txt q2answercandidate.txt q2col6cut.txt q2test.txt q3answer.txt q3candidate.txt q4answer.txt q4candidate.txt oldwork
+ 1010  ls
+ 1011  cd oldwork/ls
+ 1012  cd oldwork/. ls
+ 1013  cd oldwork
+ 1014  ls
+ 1015  ls -l | wc -l
+ 1016  cd ..
+ 1017  ls
+ 1018  grep repl originalextendnolf2.tsv 
+ 1019  grep -i "replied_to" originalextendnolf2.tsv 
+ 1020  history
+ 1021  grep -i "replied_to" originalextendnolf2.tsv 
+ 1022  grep -i "replied_to" originalextendnolf2.tsv | cut -f2 | sort -n | uniq -c | sort -hr | head -n 10 > q1resolved.txt
+ 1023  ls
+ 1024  less q1resolved.txt 
+ 1025  ls
+ 1026  grep -i in_reply_to originalextendnolf2.tsv 
+ 1027  cut -f2, 5-7 originalextendnolf2.tsv 
+ 1028  cut -f2, -f2 5-7 originalextendnolf2.tsv 
+ 1029  cut -f 2,5-7 originalextendnolf2.tsv 
+ 1030  cut -f6 originalextendnolf2.tsv | sort -n | uniq -c | sort -hr | head -n 11 > q2test.txt
+ 1031  ls
+ 1032  less q2test.txt 
+ 1033  ls
+ 1034  less q2test.txt 
+ 1035  mv q2test.txt q2resolved.txt
+ 1036  ls
+ 1037  grep retweet extendnolf2.tsv 
+ 1038  ls
+ 1039  cut -f5 extendnolf2.tsv 
+ 1040  cut -f6 extendnolf2.tsv 
+ 1041  ls
+ 1042  cut -f5 extendnolf2.tsv 
+ 1043  grep -i "type=retweeted" extendnolf2.tsv | cut -f2 | sort -n | uniq -c | sort -hr | head -n 10 > q3resolved.txt
+ 1044  ls
+ 1045  less q3resolved.txt 
+ 1046  grep 1060440219097423872 extendnolf2.tsv 
+ 1047  ls
+ 1048  cut -f4 extendnolf2.tsv | sort -h | uniq -c | sort -hr | head -n 31 > q4resolved.txt
+ 1049  ls
+ 1050  less q4resolved.txt 
+ 1051  ls
+ 1052  history > cmds.log
+ 1053  ls
+ 1054  vim cmds.log 
+ 1055  ls
+ 1056  mv q1resolved.txt q1.txt
+ 1057  less q1.txt 
+ 1058  ls
+ 1059  mv q2resolved.txt q2.txt
+ 1060  mv q3resolved.txt q3.txt
+ 1061  mv q4resolved.txt q4.txt
+ 1062  ls
+ 1063  cd oldwork/
+ 1064  ls
+ 1065  cd ..
+ 1066  ls
+ 1067  rm extendnolf2.tsv 
+ 1068  rm originalextendnolf2.tsv 
+ 1069  ls
+ 1070  less cmds.log 
+ 1071  ls
+ 1072  cd ..
+ 1073  ls
+ 1074  cd a2
+ 1075  ls
+ 1076  cd ~
+ 1077  git status
+ 1078  cd cs131
+ 1079  ls
+ 1080  git status
+ 1081  ls
+ 1082  git add .
+ 1083  git status
+ 1084  git add .
+ 1085  git status
+ 1086  man git 
+ 1087  git status
+ 1088  git commit -a -m "Pushing a2 cleaned up into github. Renamed some files as well." 
+ 1089  git push -u origin master
+ 1090  ls
+ 1091  git status
+ 1092  ls
+ 1093  cd a1
+ 1094  ls
+ 1095  cd ..
+ 1096  ls
+ 1097  cd a2
+ 1098  ls
+ 1099  git status
+ 1100  ls
+ 1101  cd ..
+ 1102  ls
+ 1103  cd test
+ 1104  l;s
+ 1105  ls
+ 1106  rm amazon_reviews_us_Books_v1_02.tsv 
+ 1107  ls
+ 1108  cd ..
+ 1109  ls
+ 1110  mv test warncsvpractice
+ 1111  ls
+ 1112  less warncsvpractice/
+ 1113  cd warncsvpractice/
+ 1114  ls
+ 1115  cd ..
+ 1116  ls
+ 1117  cd wstest/
+ 1118  ls
+ 1119  less sampe
+ 1120  less sample.txt 
+ 1121  rm -r wstest
+ 1122  ls
+ 1123  cd ..
+ 1124  ls
+ 1125  rm -r wstest/
+ 1126  ls
+ 1127  git status
+ 1128  git add .
+ 1129  git status
+ 1130  git commit -a -m "Second commit attempt. Forgot that I had created a new amazon review tsv file, messed up the last attempt."
+ 1131  git push -u origin master 
+ 1132  git reset --hard
+ 1133  git status
+ 1134  git reset --hard
+ 1135  git status
+ 1136  git reset --hard@{u}
+ 1137  git reset --hard
+ 1138  git reset --hard@{origin/master}
+ 1139  git commit -a -m "Attempt to submit changes. Attempt 3 after amazon tsv file mess up."
+ 1140  git push -u origin master
+ 1141  git reset HEAD~3
+ 1142  git status
+ 1143  git commit -a -m "Attempt 4 with amazon file removed and a2 submission updated."
+ 1144  git status
+ 1145  git add .
+ 1146  ls
+ 1147  git status
+ 1148  git add .
+ 1149  git status
+ 1150  git reset --hard
+ 1151  git status
+ 1152  git add .
+ 1153  git status
+ 1154  git commit -a -m "Attempt 5? I forgot to add after resetting a few commits back, hopefully no changes persist. For submitting a2."
+ 1155  git push -u origin master
+ 1156  git pull
+ 1157* git stat
+ 1158  git config pull.ff only
+ 1159  git status
+ 1160  git reset--hard HEAD^
+ 1161  git reset --hard HEAD^
+ 1162  ls
+ 1163  ls -lRt .git/objects
+ 1164  ls
+ 1165  git reflog
+ 1166  git reset --hard cd5aa0e
+ 1167  git status
+ 1168  git push -u origin master
+ 1169  git fetch origin
+ 1170  git status
+ 1171  git merge master
+ 1172  git status
+ 1173  git push -u origin master
+ 1174  git checkout
+ 1175  git merge origin/main
+ 1176  git merge
+ 1177  git status
+ 1178  git merge
+ 1179  help me you fucking loon
+ 1180  git reflog
+ 1181  git reset --hard cd5aa0e
+ 1182  git status
+ 1183  ls
+ 1184  git pull
+ 1185  ls
+ 1186  git status
+ 1187  git pull --rebase cd5aa0e
+ 1188  git pull --verbose
+ 1189  git pull --rebase origin
+ 1190  git status
+ 1191  git rebase
+ 1192  git reflog
+ 1193  git rebase cd5aa0e
+ 1194  rm -ft ".git/rebase-merge"
+ 1195  rm -fr ".git/rebase-merge"
+ 1196  git status
+ 1197  git rebase cd5aa0e
+ 1198  ls
+ 1199  git rebase cd5aa0e
+ 1200  git reset --hard
+ 1201  git reflog
+ 1202  git rebase cd5aa0e
+ 1203  git rebase --contineu
+ 1204  git rebase --continue
+ 1205  git rebase cd5aa0e
+ 1206  git rebase --continue
+ 1207  ls
+ 1208  cd ws5
+ 1209  ls
+ 1210  cd customers/
+ 1211  ls
+ 1212  cd ..
+ 1213  ls
+ 1214  git status
+ 1215  ls
+ 1216  less cmdsws5.log 
+ 1217  git add testcmds.log
+ 1218  git status
+ 1219  clear
+ 1220  git status
+ 1221  git rebase --continue
+ 1222  ls
+ 1223  cd ~
+ 1224  cd cs131
+ 1225  ls
+ 1226  git status
+ 1227  git reflog
+ 1228  git rebase cd5aa0e
+ 1229  git rebase --onto master^
+ 1230  git rebase --onto master^ HEAD
+ 1231  git status
+ 1232  git rebase --cd5aa0e
+ 1233  git rebase cd5aa0e
+ 1234  git status
+ 1235  git branch tmp
+ 1236  git checkout master
+ 1237  git merge tmp
+ 1238  git status
+ 1239  ls
+ 1240  git reset --hard
+ 1241  git status
+ 1242  git push -u origin master
+ 1243  git branch
+ 1244  git branch -d tmp
+ 1245*  status
+ 1246  git status
+ 1247  git merge
+ 1248  ls
+ 1249  cd ws5
+ 1250  ls
+ 1251  less cmdsws5.log 
+ 1252  git mereg 
+ 1253  git merge 
+ 1254  git add cmdsws5.log 
+ 1255  git merge
+ 1256  git status
+ 1257  git add cmdsws5.log 
+ 1258  git status
+ 1259  git push -u origin master 
+ 1260  git reflog
+ 1261  git rebase cd5aa0e
+ 1262  git reset --head
+ 1263  git reset --hard
+ 1264  git push origin HEAD:cd5aa0e
+ 1265  git status
+ 1266  git reset --head
+ 1267  git reset --hard^
+ 1268  git reset --hard HEAD^
+ 1269  git status
+ 1270  git pull
+ 1271  git status
+ 1272  ls
+ 1273  cd ..
+ 1274  ls
+ 1275  git reflog
+ 1276  git rebase cd5aa0e
+ 1277  git rebase --skip
+ 1278  git status
+ 1279  git push -u origin master
+ 1280  git rev-parse --abrev-ref 
+ 1281  git rev-parse --abrev-ref HEAD
+ 1282  ls
+ 1283  git branch
+ 1284  git status
+ 1285  git pull
+ 1286  ls
+ 1287  git status
+ 1288  git branch
+ 1289  git reflog
+ 1290  git checkout cd5aa0e
+ 1291  ls
+ 1292  git merge cd5aa0e
+ 1293  git merge master
+ 1294  ls
+ 1295  git status
+ 1296  git rebase cd5aa0e
+ 1297  git status
+ 1298  git rebase --continue
+ 1299  git add cmdsws5.log 
+ 1300  ls
+ 1301  cd ws5
+ 1302  ls
+ 1303  git add cmdsws5.log 
+ 1304  git rebase --continue
+ 1305  git add .
+ 1306  git status
+ 1307  git rebase --continue 
+ 1308  git status
+ 1309  git pull
+ 1310  git branch
+ 1311  git pull HEAD
+ 1312  git status
+ 1313  merge cd5aa0e
+ 1314  git merge cd5aa0e
+ 1315  git pull
+ 1316  git red
+ 1317  git ref
+ 1318  git reflog
+ 1319  git reset --hard 581f8d1
+ 1320  git reset --hard cd5aa0e
+ 1321  git branch
+ 1322  git switch master
+ 1323  ls
+ 1324  cd ..
+ 1325  ls
+ 1326  git switch cd5aa0e
+ 1327  git checkout cd5aa0e
+ 1328  ls
+ 1329  git branch
+ 1330  git log
+ 1331  git checkout -b temp
+ 1332  git branch
+ 1333  git branch -f master temp
+ 1334  git checkout master
+ 1335  git branch
+ 1336  git branch -d temp
+ 1337  git branch
+ 1338  git branch -d master
+ 1339  git reflog
+ 1340  git checkout bdc8560
+ 1341  ls
+ 1342  git checkout master
+ 1343  git cherry-pick bdc8560
+ 1344  git status
+ 1345  ls
+ 1346  git branch
+ 1347  git reflog
+ 1348  git branch -b bdc8560
+ 1349  ls
+ 1350  cd warncsvpractice/
+ 1351  ls
+ 1352  cd ..
+ 1353  ls
+ 1354  git branch
+ 1355  find a2
+ 1356  find a1
+ 1357  find a2
+ 1358  git reflog
+ 1359  git reflog show --all
+ 1360  ls
+ 1361  git reflog show --all
+ 1362  git log --all
+ 1363  git reflog show HEAD
+ 1364  git reflog show attemtp
+ 1365  git reflog show attempt
+ 1366  git fsck
+ 1367  ls
+ 1368  git branch
+ 1369  git status
+ 1370  git add .
+ 1371  git status
+ 1372  git commit -a -m "First commit after royally screwing up and losing my entire a2 folder. I'm excited to do it from scratch : )"
+ 1373  git push -u origin master
+ 1374  git push -uf origin master
+ 1375  ls
+ 1376  cd a1
+ 1377  ls
+ 1378  cd temp
+ 1379  cd temp3
+ 1380  ls
+ 1381  cd testdirectory/
+ 1382  ls
+ 1383  l
+ 1384  sls
+ 1385  ls
+ 1386  cd ..
+ 1387  ls
+ 1388  cd temp2/
+ 1389  ls
+ 1390  ls -la
+ 1391  cd ..
+ 1392  ls
+ 1393  cd temp2/
+ 1394  ls
+ 1395  cd ..
+ 1396  ks
+ 1397  cd testdirectory/
+ 1398  ls
+ 1399  cd ..
+ 1400  ks
+ 1401  ls
+ 1402  rm temp2
+ 1403  rmdir temp2 testdirectory
+ 1404  ls
+ 1405  cd ..
+ 1406  l
+ 1407  cd ~
+ 1408  l;s
+ 1409  ls
+ 1410  cd cs131
+ 1411  ls
+ 1412  cd a1
+ 1413  ls
+ 1414  cd temp
+ 1415  cd temp3
+ 1416  ls
+ 1417  ls -la
+ 1418  cd ..
+ 1419  ls
+ 1420  rmdir temp3
+ 1421  ls
+ 1422  cd testdirectory/
+ 1423  ls
+ 1424  cd ..
+ 1425  ls
+ 1426  cd ls
+ 1427  cd ~
+ 1428  ls
+ 1429  cd cs131
+ 1430  ls
+ 1431  git fsck --lost-found
+ 1432  ls -la
+ 1433  cd .git
+ 1434  ls
+ 1435  ls -a
+ 1436  cd lost-found
+ 1437  l;s
+ 1438  ls
+ 1439  cd commit/
+ 1440  ls
+ 1441  less 3c37746e955f3aa8cacbbe717c9d945a515c5897 
+ 1442  cd ~
+ 1443  git fsck --lost-found | grep "^dangling commit" | sed"s/^dangling commit //g" | xargs git show -s --oneline
+ 1444  git fsck --lost-found | xargs git show -s --oneline
+ 1445  git fsck --lost-found | grep "dangling commit" | sed"s/dangling commit //g" | xargs git show -s --oneline
+ 1446  ls
+ 1447  cd cs131
+ 1448  ls
+ 1449  git status
+ 1450  git fsck --lost-found --dangling 2> /dev/null | cut -d ' ' -f 3 | xargs git log --oneline --no-walk

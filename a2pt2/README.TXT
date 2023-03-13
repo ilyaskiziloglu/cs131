@@ -5,5 +5,9 @@ on github. In trying to rectify this, I pulled from github at one point and tota
 original mistake (all had failed the push), all of my work was now gone. I spent over 2 hours trying to fix the issue by merging/creating new branches/trying
 to find a dangling commit that I could reference off of but only seemed to make the problem worse. At the end, I lost both A1 and A2.
 
+I plan on reviewing what happened and why it happened with the professor during office hours. I do not know if/how he will try to recover them so I have left 
+file names different so as not to cause any problems if they are recovered. For this assignment, the "reference" log is just a reference to go over the 
+commands I put in, it does not contain cleaned commands for this submission. 
+
 This file is created for the grader's reference to understand why some of the assignment names may not match 1-1 with what the professor asks for. If you 
 would like to know more detail, I am more than happy to discuss as I spent an extensive amount of time on this assignment. Thank you for your understanding.   
