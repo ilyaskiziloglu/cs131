@@ -1,0 +1,6 @@
+ 1005  sed -n '/1844161560/p' awsreviews.tsv > 18441615602ndmethod.txt
+ 1006  wc -l < 18441615602ndmethod.txt 
+ 1008  sed 's/,/ /g ; s/\./ /g ; s/;/ /g ; s/to/ /g' 18441615602ndmethod.txt > 1844161560_task5_2ndmethod.txt
+ 1010  sed 's/<br \// /g' 1844161560_task5_2ndmethod.txt > 1844161560_task6_2ndmethod.txt
+ 1013  sed 's/<br \/>/ /g' 1844161560_task5_2ndmethod.txt > 1844161560_task6_2ndmethod.txt
+ 1023  history > cmds2.log

@@ -1,0 +1,7 @@
+BEGIN {
+	a[1]="goodclass"
+	a[2]="goodclass"
+	for(i=1;i<3;i++){
+		print a[i]
+	}
+}

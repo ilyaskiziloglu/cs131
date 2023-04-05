@@ -1,0 +1,10 @@
+ 1003  awk -F '\t' '{if ($12=="Y") print $0}' awsreviews.tsv > verified2.txt
+ 1010  sort verified.txt | head -n 20 verified_head21.txt
+ 1011  sort verified.txt | head -n 20 > verified_head21.txt
+ 1012  wc -l < verified_head21.txt 
+ 1013  wc -l < verified_head20.txt 
+ 1014  ls
+ 1015  rm verified_head20.txt 
+ 1016  mv verified_head21.txt verified_head20.txt
+ 1017  ls
+ 1018  history > cmds.log

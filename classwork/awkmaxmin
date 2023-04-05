@@ -1,0 +1,23 @@
+#1. Create a func to find min (num1, num2) 
+#2. Create a func to find max (num1,num2)
+#3. Create a main func to run both main(num1,num2)
+	#call find_max, find_min
+#	print outputs from last 2 functions
+
+function min(param1, param2){
+	if (param1 < param2)
+		return param1
+	else
+	return param2
+}
+function max(param1, param2){
+	if (param1>param2)
+		return param1
+	else
+		return param2
+ }
+
+BEGIN{
+	print(min(var1, var2), max(var1,var2))
+
+}

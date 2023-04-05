@@ -1,0 +1,1000 @@
+  138  cd cs131
+  139  ls
+  140  cd classwork/
+  141  ls
+  142  less my_pipe
+  143  less -f my_pipe 
+  144  cd cs131
+  145  ls
+  146  lls
+  147  ls
+  148  gunzip as1zipped.zi
+  149  man gunzip
+  150  man unzip
+  151  unzip as1zipped.zip 
+  152  ls
+  153  cd as1
+  154  ls
+  155  cd ..
+  156  ls
+  157  rm as1zipped.zip 
+  158  ls
+  159  unzip origclassworkzipped.zip 
+  160  ls
+  161  less origclassworklongsh 
+  162  mv origclassworklongsh timeupdatescript
+  163  ls
+  164  rm origclassworkzipped.zip 
+  165  ls
+  166  mv timeupdatescript classwork
+  167  ls
+  168  git status
+  169  cd warncsvpractice/
+  170  ls
+  171  cd ..
+  172  ls
+  173  find aws
+  174  find warn
+  175  find aws.tsv
+  176  ls
+  177  cd ws1
+  178  ls
+  179  cd ..
+  180  ls
+  181  git add .
+  182  git commit -a -m "Added recovered as1 back into the folder. First git push attempt."
+  183  git push -u origin master
+  184  ls
+  185  cd ws5
+  186  ls
+  187  cd customers/
+  188  ls
+  189  cd ..
+  190  ls
+  191  cd ..
+  192  ls
+  193  pwd
+  194  ls
+  195  less cmds.log
+  196  ls
+  197  cd as1
+  198  ls
+  199  find *.log
+  200  cd ..
+  201  ls
+  202  find *.tsv
+  203  cd ~
+  204  find *.tsv
+  205  ls
+  206  cd cs131
+  207  ls
+  208  cd as1
+  209  ls
+  210  less cmds.log 
+  211  cd cs131
+  212  ;s
+  213  ls
+  214  cd classwork/
+  215  ls
+  216  vim awkconditional
+  217  ls
+  218  cd ..
+  219  ls
+  220  cd warncsvpractice/
+  221  ls
+  222  cd ..
+  223  ls
+  224  cd class
+  225  cd classwork/
+  226  ls
+  227  vim aws
+  228  sl
+  229  ls
+  230  vim awkconditional 
+  231  vim awkarrayscript
+  232  ls
+  233  awkconditional
+  234  awk awkconditional
+  235  clear
+  236  ls
+  237  sh awkconditional
+  238  clear
+  239  ls
+  240  vim awkmaxmin
+  241  vim awkmaxmin 
+  242  ls
+  243  awk -f awkmaxmin
+  244  vim awkmaxmin 
+  245  awk -f awkmaxmin
+  246  vim awkmaxmin 
+  247  awk -f awkmaxmin -v param1=15
+  248  awk -f awkmaxmin
+  249  awk -v param1=15 -v param2=30 -f awkmaxmin 
+  250  vim awkmaxmin 
+  251  awk -v param1=15 -v param2=30 -f awkmaxmin 
+  252  cd cs131
+  253  ls
+  254  cd classwork/
+  255  ls
+  256  awk -f awkmaxmin 
+  257  ls
+  258  clear
+  259  ls
+  260  awk -f awkmaxmin 
+  261  cd ~
+  262  cd cs131
+  263  git reflog
+  264  git reflog --all
+  265  ls
+  266  cd classwork/
+  267  ls
+  268  vim awkmaxmin 
+  269  awk -v var1=5 -v var2=10 -f awkmaxmin 
+  270  vim awkmaxmin
+  271  clear
+  272  cd cs131
+  273  ls
+  274  cd class
+  275  cd classwork/
+  276  ls
+  277  mkdir shellscriptingintro
+  278  ls
+  279  cd shellscriptingintro/
+  280  vim testfile.sh
+  281  who
+  282  ls
+  283  sh testfile.sh 
+  284  man chmod
+  285  sh testfile.sh 
+  286  who
+  287  who -a
+  288  ls
+  289  vim testfile.sh 
+  290  chmod u+rx testfile.sh 
+  291  ./testfile.sh 
+  292  vim testfile.sh 
+  293  chmod u+rx testfile.sh 
+  294  ./testfile.sh 
+  295  vim testpt2.sh
+  296  sh testpt2.sh 
+  297  ls
+  298  vim testfile.sh 
+  299  less testpt2.sh 
+  300  x=
+  301  x=7
+  302  sh testpt2.sh 
+  303  x=7 | sh testpt2.sh 
+  304  $x=7 | sh testpt2.sh 
+  305  x=7 | sh testpt2.sh 
+  306  ls
+  307  vim shellscriptexercise.sh
+  308  chmod
+  309  chmod u+x testpt2.sh
+  310  ls
+  311  vim shellscriptexercise.sh 
+  312  chmod u+x shellscriptexercise.sh 
+  313  ls
+  314  ./shellscriptexercise.sh 
+  315  vim shellscriptexercise.sh 
+  316  ./shellscriptexercise.sh 
+  317  vim shellscriptexercise.sh 
+  318  ./shellscriptexercise.sh 
+  319  vim shellscriptexercise.sh 
+  320  ./shellscriptexercise.sh 
+  321  vim shellscriptexercise.sh 
+  322  ./shellscriptexercise.sh 
+  323  cat shellscriptexercise.sh 
+  324  man ps
+  325  man pr
+  326  man $$
+  327  man ps
+  328  ps -a
+  329  clear
+  330  exit
+  331  cd cs131/ws6
+  332  cd ~
+  333  cd cs131/ws6 | less awsreviews.tsv 
+  334  cd cs131/ws6 
+  335  ls
+  336  less warntrimmed.csv 
+  337  ls
+  338  cd cs131
+  339  ls
+  340  mkdir ws6
+  341  ls
+  342  mv as1 a1
+  343  ls
+  344  cd ..
+  345  ls
+  346  cp awsreviews.tsv cs131/ws6
+  347  cp awsreviews.ts
+  348  c
+  349  ls
+  350  ls
+  351  cd cs131
+  352  lks
+  353  ls
+  354  cd ws6
+  355  ls
+  356  man size
+  357  size awsreviews.tsv 
+  358  df
+  359  ls -lah
+  360  ls
+  361  rm awsreviews.tsv 
+  362  ls
+  363  cd ~
+  364  ls
+  365  cp awsreviews.tsv ./cs131/ws6
+  366  ls
+  367  cd cs131
+  368  ls
+  369  cd ws6
+  370  ls
+  371  ls -lh
+  372  ls -h
+  373  ls -lh
+  374  ls
+  375  cd ..
+  376  ls
+  377  cd warncsvpractice/
+  378  ls
+  379  cp warntrimmed.csv ../ws6
+  380  ls
+  381  cd ../ws6
+  382  ls
+  383  echo ./
+  384  ls
+  385  less warntrimmed.csv 
+  386  ls
+  387  man sed
+  388  cd cs131/ws6
+  389  ls
+  390  sort -k12 awsreviews.tsv | cut -f12 | sort -r | uniq -c
+  391  egrep $'(.*\t){11}N\t' awsreviews.tsv | wc -l
+  392  egrep ^.*\t{11}N\t awsreviews.tsv | wc -l
+  393  egrep `^.*\t{11}N\t` awsreviews.tsv | wc -l
+  394  egrep (^.*\t){11}N\t awsreviews.tsv | wc -l
+  395  egrep $(^.*\t){11}N\t awsreviews.tsv | wc -l
+  396  egrep $(.*\t){11}N\t awsreviews.tsv | wc -l
+  397  egrep $`(.*\t){11}N\t` awsreviews.tsv | wc -l
+  398  egrep $'(.*\t){11}N\t' awsreviews.tsv | wc -l
+  399  egrep '(.*\t){11}N\t' awsreviews.tsv | wc -l
+  400  egrep $'.*\t{11}N\t' awsreviews.tsv | wc -l
+  401  cd cs131
+  402  ls
+  403  cd ..
+  404  less awsreviews.tsv 
+  405  cd cs131/ws6
+  406  ls
+  407  man head
+  408  cut -f12 awsreviews.tsv | head -n 20
+  409  cut -f13 awsreviews.tsv | head -n 20
+  410  cut -f14 awsreviews.tsv | head -n 20
+  411  clear
+  412  man sort
+  413  sort -k12 awsreviews.tsv | head 
+  414  ls
+  415  less warntrimmed.csv
+  416  sort -k1 warntrimmed.csv | head 
+  417  less warntrimmed.csv 
+  418  sort -k12 -h awsreviews.tsv | head 
+  419  sort -k12 -h awsreviews.tsv | cut -f12 | head
+  420  sort -k12 -hr awsreviews.tsv | cut -f12 | head
+  421  sort -k12 -r awsreviews.tsv | cut -f12 | head
+  422  sort -k12 -r awsreviews.tsv | cut -f12 | tail
+  423  sort -k12 -r awsreviews.tsv | cut -f12 | grep "Y"
+  424  man sort
+  425  sort -k12 awsreviews.tsv | cut -f12 | sort -r | head
+  426  sort -k12 awsreviews.tsv | cut -f12 | sort -r | head -n 20
+  427  sort -k12 awsreviews.tsv | cut -f12 | sort -r | tail -n 20
+  428  sort -k12 awsreviews.tsv | cut -f12 | sort -r | uniq -c
+  429  ls
+  430  sed 's/cisco/chicken butt/' warntrimmed.csv 
+  431  sed 's/monkey/test'
+  432  sed '/monkey/test'
+  433  man sed
+  434  sed '/San Diego County/CHICKEN BUTT COUNTY' warntrimmed.csv 
+  435  sed '/San Diego County/CHICKEN BUTT COUNTY/' warntrimmed.csv 
+  436  sed 's/San Diego County/CHICKEN BUTT COUNTY/' warntrimmed.csv 
+  437  ma nsed
+  438  man sed
+  439  sed -n 's/San Diego County/CHICKEN BUTT COUNTY' warntrimmed.csv 
+  440  sed -n '/San Diego County/CHICKEN BUTT COUNTY' warntrimmed.csv 
+  441  sed -n 's/San Diego County/CHICKEN BUTT COUNTY/' warntrimmed.csv 
+  442  sed -n 's/San Diego County/CHICKEN BUTT COUNTY/p' warntrimmed.csv 
+  443  man sed
+  444  sed 's/San Diego County/CHICKEN BUTT COUNTY/dp' warntrimmed.csv 
+  445  sed 'd/San Diego County/CHICKEN BUTT COUNTY/dp' warntrimmed.csv 
+  446  sed 's/San Diego County/CHICKEN BUTT COUNTY/p'= warntrimmed.csv 
+  447  sed 's/San Diego County/CHICKEN BUTT COUNTY/' warntrimmed.csv 
+  448  sed 's/San Diego County/CHICKEN BUTT COUNTY/p' warntrimmed.csv 
+  449  sed -n 's/San Diego County/CHICKEN BUTT COUNTY/p' warntrimmed.csv 
+  450  sed -n 's/San Diego County/CHICKEN BUTT COUNTY/dp' warntrimmed.csv 
+  451  sed -n 's/San Diego County/CHICKEN BUTT COUNTY/p'= warntrimmed.csv 
+  452  sed -n 's/San Diego County/CHICKEN BUTT COUNTY/p=' warntrimmed.csv 
+  453  sed -n 's/San Diego County=/CHICKEN BUTT COUNTY/p=' warntrimmed.csv 
+  454  sed -n 's/San Diego County/CHICKEN BUTT COUNTY/p=' warntrimmed.csv 
+  455  sed-n 's/Alameda County/POPOPOPOPOPOP COUNTY/p' warntrimmed.csv 
+  456  sed -n 's/Alameda County/POPOPOPOPOPOP COUNTY/p' warntrimmed.csv 
+  457  sed -n 's/Alameda County/Plompers County/p' warntrimmed.csv 
+  458  sed -n 's/Alameda County/Plompers County/p' warntrimmed.csv > plompers.txt
+  459  ls
+  460  less plompers.txt 
+  461  sed -n 's/Plompers County/Cheese/dp' plompers.txt 
+  462  sed -n '/Plompers County/Cheese/dp' plompers.txt 
+  463  sed -n 's/Plompers County/Cheese/d' plompers.txt 
+  464  sed 's/Plompers County/Cheese/d' plompers.txt 
+  465  sed 's/Plompers County/cheese/d' plompers.txt 
+  466  sed 'd/Plompers County/cheese/' plompers.txt 
+  467  sed d'/Plompers County/cheese/' plompers.txt 
+  468  sed 'd/Plompers County/cheese/' plompers.txt 
+  469  sed '/Plompers County/cheese/d' plompers.txt 
+  470  sed '/Plompers County/\C\heese/d' plompers.txt 
+  471  sed '/Plompers County/cheese/d' plompers.txt 
+  472  sed -n '/Plompers County/cheese/dp' plompers.txt 
+  473  ls
+  474  less plompers.txt 
+  475  wc -l < plompers.txt 
+  476  sed '/Plomp/ d' plompers.txt 
+  477  less plompers.txt 
+  478  sed '/Plomp/ d' plompers.txt | cat plompers.txt 
+  479  sed -n '/Plomp/ d' plompers.txt 
+  480  sed -n '/Plomp/ pd' plompers.txt 
+  481  sed -n '1, 10 /Plomp/ pd' plompers.txt 
+  482  sed -n '1, 10 /Plomp/p' plompers.txt 
+  483  sed -n '1, 10/Plomp/p' plompers.txt 
+  484  sed -n '1, 10 p' plompers.txt 
+  485  sed -n '0, 10 p' plompers.txt 
+  486  sed -n '1ƒƒ, 10 p' plompers.txt 
+  487  sed -n '1, 10 p' plompers.txt 
+  488  sed -n '1, 10 c\ AMOGUS'
+  489  sed -n '1, 10 c\ AMOGUS
+  490  ls
+  491  sed -n '1, 10 c\ AMOGUS' plompers.txt 
+  492  sed -n '1, 10 c\ AMOGUS p' plompers.txt 
+  493  sed -n '1, 10 c\ AMOGUS/p' plompers.txt 
+  494  sed -n '1, 10 c\AMOGUS/p' plompers.txt 
+  495  sed --n'/Plomp/ d' plompers.txt 
+  496  sed -n '/Plomp/d' plompers.txt 
+  497  sed -n '/Plomp/dp' plompers.txt 
+  498  sed -n '/Plomp/p' plompers.txt 
+  499  sed -n '/Min/p' plompers.txt 
+  500  sed -n '/Work/p' plompers.txt 
+  501  sed 's/Work/BLUE &/p' plompers.txt 
+  502  sed 's/Ajin/BLUE &/p' plompers.txt 
+  503  sed 's/Borrego/AMOGUS AMOGUS &/3' plompers.txt 
+  504  sed 's/Borrego/AMOGUS AMOGUS /3' plompers.txt 
+  505  sed 's/"Borrego"/AMOGUS AMOGUS /3' plompers.txt 
+  506  sed 's/Arris/AMOGUS AMOGUS /3' plompers.txt 
+  507  sed 's/Arris/AMOGUS AMOGUS/' plompers.txt 
+  508  sed 's/Arris/AMOGUS AMOGUS &/' plompers.txt 
+  509  sed 's/Arris/AMOGUS AMOGUS &/2' plompers.txt 
+  510  sed 's/Arris/AMOGUS AMOGUS &/1' plompers.txt 
+  511  sed 's/2022/AMOGUS AMOGUS &/1' plompers.txt 
+  512  sed 's/2022/AMOGUS AMOGUS &/2' plompers.txt 
+  513  sed 's/2022/AMOGUS AMOGUS &/1' plompers.txt 
+  514  sed 's/2022/AMOGUS AMOGUS &/g' plompers.txt 
+  515  sed '1,5p' plompers.txt 
+  516  sed -n '1,5p' plompers.txt 
+  517  sed -n 's/Pleasanton//p' plompers.txt 
+  518  sed -n 's/Santa Clara//p'
+  519  sed -n 's/Santa Clara//p' plompers.txt 
+  520  less plompers.txt 
+  521  sed -n 's/Fremont//p' plompers.txt 
+  522  sed -n 's/Fremont/ =' plompers.txt 
+  523  sed -n 's/Fremont// =' plompers.txt 
+  524  sed 's/Fremont/ =/' plompers.txt 
+  525  sed -n 's/Fremont/ =/' plompers.txt 
+  526  sed -n 's/Pleasanton/ =/' plompers.txt 
+  527  sed -n 's/Pleasanton/ =/p' plompers.txt 
+  528  sed -n 's/Pleasanton/ \=\/p' plompers.txt 
+  529  sed -n '/Pleasanton/ =' plompers.txt 
+  530  sed -n '29' plompers.txt 
+  531  sed -n '29p' plompers.txt 
+  532  sed -n '/Pleasanton/p' plompers.txt 
+  533  sed -n '/Pleasanton/d' plompers.txt 
+  534  cat plompers.txt 
+  535  sed '/Ajin/d' plompers.txt 
+  536  cat plompers.txt 
+  537  sed '/Borr/d' plompers.txt 
+  538  sed '/Borr/d' plompers.txt | sed '/Ajin/d'
+  539  sed '/Borr/d ; /Ajin/d' plompers.txt 
+  540  sed '/Borr/d ; /Ajin/d; /Arris/CHICKEN/' plompers.txt 
+  541  sed '/Borr/d ; /Ajin/d; s/Arris/CHICKEN/' plompers.txt 
+  542  sed '/Borr/d ; /Ajin/d; s/Arris/CHICKEN/d' plompers.txt 
+  543  sed '/Borr/d ; /Ajin/d; s/Arris/CHICKEN/p' plompers.txt 
+  544  sed -n '/Borr/d ; /Ajin/d; s/Arris/CHICKEN/p' plompers.txt 
+  545  sed -n '/ADP/ q' plompers.txt 
+  546  sed -n '/ADP/ qp' plompers.txt 
+  547  sed '/ADP/ qp' plompers.txt 
+  548  sed '/ADP/ q' plompers.txt 
+  549  sed '!/ADP/ q' plompers.txt 
+  550  sed '/!ADP/ q' plompers.txt 
+  551  clear
+  552  sed '/ADP/ q' plompers.txt 
+  553  sed 's/Meta/AMOGUS/w test.txt' plompers.txt 
+  554  ls
+  555  less test.txt 
+  556  sed '5d' test.txt 
+  557  sed '1d' test.txt 
+  558  ls
+  559  rm test.txt 
+  560  ls
+  561  sed -n '/.*\t{11}N/w unverifiedtest.txt' awsreviews.tsv 
+  562  ls
+  563  cut -f12 unverifiedtest.txt | sort -r | uniq -c
+  564  ls
+  565  less unverifiedtest.txt 
+  566  sed -n '/.*\t{11}N\t/w unverifiedtest.txt' awsreviews.tsv 
+  567  less unverifiedtest.txt 
+  568  sed -n 's/.*\t{11}N\t/w unverifiedtest.txt' awsreviews.tsv 
+  569  sed '/.*\t{11}N\t/w unverifiedtest.txt' awsreviews.tsv 
+  570  sed -n '/.*\t{11}N\t/ w unverifiedtest.txt' awsreviews.tsv 
+  571  less unverifiedtest.txt 
+  572  clear
+  573  ls
+  574  less plompers.txt 
+  575  sed '/Meta/ w testoutput.txt' plompers.txt 
+  576  sed -n '/Meta/ w testoutput.txt' plompers.txt 
+  577  less testoutput.txt 
+  578  sed -n '/Meta/ w testoutput.txt; 1d' plompers.txt 
+  579  less testoutput.txt
+  580  sed -n '/(.*\t){11}N\t/ w unverifiedtest.txt' awsreviews.tsv 
+  581  less unverifiedtest.txt 
+  582  sed -n '/(.*\t){11}N/ w unverifiedtest.txt' awsreviews.tsv 
+  583  less unverifiedtest.txt 
+  584  head -n 20 awsreviews.tsv | sed '/(.*\t){10}N/w unverifiedtest.txt'
+  585  head -n 20 awsreviews.tsv | sed -n '/(.*\t){10}N/w unverifiedtest.txt'
+  586  less unverifiedtest.txt 
+  587  ls
+  588  rm 'testoutput.txt; 1d'
+  589  ls
+  590  less testoutput.txt 
+  591  rm testoutput.txt 
+  592  ls
+  593  sed -n '/$(.*\t){10}N/w unverifiedtest.txt'
+  594  sed -n '/(.*\t){10}N/w unverifiedtest.txt'
+  595  sed -n '/$(.*\t){10}N/w unverifiedtest.txt' awsreviews.tsv 
+  596  less unverifiedtest.txt 
+  597  sed -n '/(.*\t){2}/w unverifiedtest.txt' awsreviews.tsv 
+  598  less unverifiedtest.txt 
+  599  rm unverifiedtest.txt 
+  600  ls
+  601  sed -n '/(.*\t){11}/w unverifiedtest.txt' awsreviews.tsv 
+  602  less unverifiedtest.txt 
+  603  egrep $'(.*\t){11}Y\t' awsreviews.tsv | wc- l
+  604  egrep $'(.*\t){11}Y\t' awsreviews.tsv | wc
+  605  egrep $'(.*\t){11}Y\t' awsreviews.tsv | wc -l
+  606  sort -k12 awsreviews.tsv | cut -f12 | sort -r | uniq -c
+  607  sed -n '/(.*\t){11}N\t' awsreviews.tsv > outputtest.txt
+  608  sed -n '/(.*\t){11}N\t/' awsreviews.tsv > outputtest.txt
+  609  sed -n '/(.*\t){11}N\t/w output.txt' awsreviews.tsv
+  610  ls
+  611  less outputtest.txt 
+  612  sed -n 's/(.*t){11}N\t/p' awsreviews.tsv > testfile.txt
+  613  sed -n '/(.*t){11}N\t/p' awsreviews.tsv > testfile.txt
+  614  less testfile.txt 
+  615  sed '/(.*t){11}N\t/p' awsreviews.tsv > testfile.txt
+  616  less testfile.txt 
+  617  ls
+  618  less unverifiedtest.txt 
+  619  rm unverifiedtest.txt 
+  620  ls
+  621  rm testfile.txt 
+  622  ls
+  623  less outputtest.txt 
+  624  rm outputtest.txt 
+  625  ls
+  626  sed '/(.*t){11}N\t/p' awsreviews.tsv > testfile.txt
+  627  sed '/(.*t){11}N\t/w unverified.txt' awsreviews.tsv
+  628  ls
+  629  less unverified.txt 
+  630  less testfile.txt 
+  631  less unverified.txt 
+  632  sed -n '/(.*t){11}N\t/ w unverified.txt' awsreviews.tsv
+  633  less unverified.txt 
+  634  sed '/(.*t){11}N\t/w unverified.txt' awsreviews.tsv
+  635  ls
+  636  less unverified.txt 
+  637  less testfile.txt 
+  638  ls -lah
+  639  wc -l < testfile.txt 
+  640  wc -l < awsreviews.tsv 
+  641  ls
+  642  rm testfile.txt unverified.txt 
+  643  ls
+  644  ls -lah
+  645  ls -h
+  646  ls -lh
+  647  ls -ah
+  648  ls -lh
+  649  clear
+  650  sed -n '/1844161560/p' awsreviews.tsv 
+  651  sed -n '/1844161560/p' awsreviews.tsv | cut -f12 
+  652  sed -n '/1844161560/p' awsreviews.tsv > unverifiedcheatmethod.txt
+  653  sl
+  654  ls
+  655  less unverifiedcheatmethod.txt 
+  656  sed '/,/d; /./d; /;/d; /to/d' unverifiedcheatmethod.txt > task5.txt
+  657  less task5
+  658  less task5.txt 
+  659  sed '/,/d; /./d; /to/d' unverifiedcheatmethod.txt > task5.txt
+  660  less task5.txt 
+  661  sed -i '/,/d; /./d; /to/d' unverifiedcheatmethod.txt
+  662  less unverifiedcheatmethod.txt 
+  663  ls
+  664  less task5.txt 
+  665  rm task5.txt 
+  666  less unverifiedcheatmethod.txt 
+  667  rm unverifiedcheatmethod.txt 
+  668  ls
+  669  sed '1844161560' awsreviews.tsv 
+  670  sed -n '/1844161560/p' awsreviews.tsv 
+  671  sed -n '/1844161560/p' awsreviews.tsv > idoutput.txt
+  672  l
+  673  ls
+  674  less idoutput.txt 
+  675  sed -n '/1844161560/w testidoutput.txt' awsreviews.tsv
+  676  less testidoutput.txt 
+  677  ls
+  678  less idoutput.txt 
+  679  less testidoutput.txt 
+  680  ls -lah
+  681  sed -i '/,/d ; /./d ; /;/d ; /to/d' testidoutput.txt 
+  682  less testidoutput.txt 
+  683  sed -n '/1844161560/w testidoutput.txt' awsreviews.tsv
+  684  ls
+  685  less testidoutput.txt 
+  686  sed '/,/d ; /./d ; /;/d ; /to/d' testidoutput.txt > dump.txt
+  687  less dump.txt 
+  688  ls -lah
+  689  sed '/,/d ; /./d ; /;/d ; /to/d' testidoutput.txt > dump.txt
+  690  sed -e '/,/d' -e  '/./d' -e '/;/d' -e '/to/d' testidoutput.txt > dump.txt
+  691  ls -lah
+  692  sed '/to/d' testidoutput.txt 
+  693  less testidoutput.txt 
+  694  sed -n '/to/p' idoutput.txt 
+  695  grep to idoutput.txt 
+  696  ls
+  697  grep to testidoutput.txt 
+  698  sed -i '/ to / /' testidoutput.txt 
+  699  sed -i '/ to / ' testidoutput.txt 
+  700  sed -i '/ to / d' testidoutput.txt 
+  701  grep to testidoutput.txt 
+  702  ls -lah
+  703  ls
+  704  rm testidoutput.txt 
+  705  ls
+  706  rm dump.txt 
+  707  ls
+  708  sed '/1844161560/w testdump.txt' awsreviews.tsv 
+  709  sed -n '/1844161560/w testdump.txt' awsreviews.tsv 
+  710  less testdump.txt 
+  711  ls -lah
+  712  ls
+  713  less testdump.txt 
+  714  rm plompers.txt 
+  715  ls
+  716  sed '/,/d ; /./d ; /;/d ; /to/d' testdump.txt > dump.txt
+  717  ls -lah
+  718  sed -i '/,/d ; /./d ; /;/d ; /to/d' testdump.txt
+  719  ls -lah
+  720  sed -n '/`$(.*\t){11}N\t`/p' awsreviews.tsv > dumpyregex.txt
+  721  ls -lah
+  722  rm dump.txt testdump.txt dumpyregex.txt 
+  723  ls
+  724  ls -lah
+  725  sed -n '/`$(.*\t){11}N\t`/p' awsreviews.tsv > dumpyregex.txt
+  726  sed -n "/$(.*\t){11}N\t/p" awsreviews.tsv > dumpyregex.txt
+  727  sed -n '/$(.*\t){11}N\t/p' awsreviews.tsv > dumpyregex.txt
+  728  ls -lah
+  729  cut -f12 awsreviews.tsv | head -n 50
+  730  head -n 50 awsreviews.tsv > headofawsreviews.tsv
+  731  ls
+  732  less headofawsreviews.tsv 
+  733  wc -l < headofawsreviews.tsv 
+  734  sed -n '/$(.*\t){11}N\t/p' headofawsreviews.tsv > dumpyregex.txt
+  735  ls -lah
+  736  rm dumpyregex.txt 
+  737  ls
+  738  ls -lah
+  739  sed '/$(.*\t){11}N\t/p' headofawsreviews.tsv
+  740  sed '/$(.*\t){11}N\t/p' headofawsreviews.tsv > dumpyregex.txt
+  741  ls -lah
+  742  wc -l < dumpyregex.txt 
+  743  cut -f12 headofawsreviews.tsv | sort -r | uniq -c
+  744  cut -f12 dumpyregex.txt | sort -r | uniq -c
+  745  sed '/ $(.*\t){11}N /p' headofawsreviews.tsv > dumpyregex.txt
+  746  wc -l dumpyregex.txt 
+  747  sed '/$(.*\t){11}N /p' headofawsreviews.tsv > dumpyregex.txt
+  748  wc dumpyregex.txt 
+  749  wc -l < dumpyregex.txt 
+  750  cut -f12 dumpyregex.txt | sort -r | uniq -c
+  751  sed '/$(.*\t){11}N\t/p' headofawsreviews.tsv > dumpyregex.txt
+  752  wc -l < dumpyregex.txt 
+  753  sed '/`$(.*\t){11}N\t`/p' headofawsreviews.tsv > dumpyregex.txt
+  754  wc -l < dumpyregex.txt 
+  755  sed '/^.*\t{11}N\t/p' headofawsreviews.tsv > dumpyregex.txt
+  756  wc -l < dumpyregex.txt 
+  757  sed '/$(.*\t){11}N\t' headofawsreviews.tsv > dumpyregex.txt 
+  758  sed '/$12N/p' headofawsreviews.tsv > dumpyregex.txt 
+  759  ls -lah
+  760  wc -l < dumpyregex.txt 
+  761  sed '/$(.*\t){11}N\t/p' headofawsreviews.tsv > dumpyregex.txt 
+  762  sed '/$'(.*\t){11}N\t'/p' headofawsreviews.tsv > dumpyregex.txt 
+  763  sed '/$\'(.*\t){11}N\t\'/p' headofawsreviews.tsv > dumpyregex.txt 
+  764  echo 'hello'
+  765  echo 'he\'ll\'o'
+  766  poop
+  767  echo 'Good morning'
+  768  echo 'Good \'morning'
+  769  echo 'Good \'morn\'ing'
+  770  echo 'Good \"morn\"ing'
+  771  echo 'Good "morn"ing'
+  772  echo 'Good \'mo\'rning'
+  773  sed '/^.*\t{11}N\t/p' headofawsreviews.tsv > dumpyregex.txt 
+  774  ls -lah
+  775  wc -l < dumpyregex.txt 
+  776  sed '/^.*\t{11\}N\t/p' headofawsreviews.tsv > dumpyregex.txt 
+  777  wc -l < dumpyregex.txt 
+  778  sed '/^.*\t{11\}N\t/p' headofawsreviews.tsv > dumpyregex.txt 
+  779  sed '/\^.*\t{11\}N\t\/p' headofawsreviews.tsv > dumpyregex.txt 
+  780  sed '/\^.*\t{11\}N\t\ /p' headofawsreviews.tsv > dumpyregex.txt 
+  781  wc -l < dumpyregex.txt 
+  782  cut -f12 dumpyregex.txt | sort -r | uniq -c 
+  783  sed '/"(.*\t){11}N\t"/p' headofawsreviews.tsv > dumpyregex.txt 
+  784  wc -l < dumpyregex.txt 
+  785  cut -f12 dumpyregex.txt | sort -r | uniq -c 
+  786  ls
+  787  cd cs131
+  788  ls
+  789  mkdir ws7
+  790  cd ws6 | cp awsreviews.tsv ../ws7
+  791  cd ws6
+  792  ls
+  793  cp awsreviews.tsv ../ws7
+  794  cd ..
+  795  cd ws6
+  796  ls
+  797  cd ..
+  798  ls
+  799  cd ws7
+  800  ls
+  801  ls -lah
+  802  awk -F \t '{print $12}' awsreviews.tsv | head -n 20
+  803  awk -F \t '{print $0}' awsreviews.tsv | head -n 20
+  804  awk -F \t '{print $5}' awsreviews.tsv | head -n 5
+  805  man awk
+  806  awk '{print $5}' awsreviews.tsv | head -n 5
+  807  awk '{print $12}' awsreviews.tsv | head -n 5
+  808  awk 'BEGIN FS="\t" {print $12' awsreviews.tsv | head -n 5
+  809  awk 'BEGIN FS="\t" {print $12}' awsreviews.tsv | head -n 5
+  810  awk 'BEGIN FS= "\t" {print $12}' awsreviews.tsv | head -n 5
+  811  awk 'BEGIN FS = "\t" {print $12}' awsreviews.tsv | head -n 5
+  812  cd ../ws6 | cp headofawsreviews.tsv ~/cs131/ws7
+  813  cd ..
+  814  ls
+  815  cd ws7
+  816  ls
+  817  cd ..
+  818  cd ws6
+  819  ls
+  820  cp headofawsreviews.tsv ~/cs131/ws7
+  821  ls
+  822  cd .. | cd ws7
+  823  cd .. | ws7
+  824  cd ../ws7
+  825  ls
+  826  awk '{print $12}' headofawsreviews.tsv 
+  827  awk '{print $1}' headofawsreviews.tsv | head -n 5
+  828  awk '{print $2}' headofawsreviews.tsv | head -n 5
+  829  awk '{print $9}' headofawsreviews.tsv | head -n 5
+  830  awk '{print $10}' headofawsreviews.tsv | head -n 5
+  831  awk '{print $11}' headofawsreviews.tsv | head -n 5
+  832  awk '{print $12}' headofawsreviews.tsv | head -n 5
+  833  awk '{print $12}' headofawsreviews.tsv | head -n 10
+  834  awk '{print $11}' headofawsreviews.tsv | head -n 10
+  835  awk -F '\t' '{print $11}' headofawsreviews.tsv | head -n 10
+  836  awk -F '\t' '{if $12 == Y}' headofawsreviews.tsv | head -n 10
+  837  awk -F '\t' '{if ($12 == Y) print}' headofawsreviews.tsv | head -n 10
+  838  awk -F '\t' '{if ($12 == Y) print}' headofawsreviews.tsv | head -n 20
+  839  awk -F '\t' '{if ($12 == Y) print}' headofawsreviews.tsv | head -n 30
+  840  awk -F '\t' '{if ($12 == Y) print $12}' headofawsreviews.tsv | head -n 30
+  841  cut -f12 headofawsreviews.tsv | head 
+  842  cut -f12 headofawsreviews.tsv | head -n 20
+  843  awk -F '\t' '{if ($12 == Y) print $12} END {print END OF INSTRUCTION}' headofawsreviews.tsv | head -n 20
+  844  awk -F '\t' '{if ($12 == Y) print $12} END {print "END OF INSTRUCTION"}' headofawsreviews.tsv | head -n 20
+  845  awk -F '\t' '{if ($12 == Y) print $12} END {print "\nEND OF INSTRUCTION"}' headofawsreviews.tsv | head -n 20
+  846  cd cs131/ws7
+  847  ls
+  848  awk 'BEGIN {i=0} i<4 {print; i++}' headofawsreviews.tsv 
+  849  head -n 4 headofawsreviews.tsv 
+  850  man awk
+  851  awk 'BEGIN FS='\t' {print NF}' headofawsreviews.tsv 
+  852  awk 'BEGIN FS=\'\t\' {print NF}' headofawsreviews.tsv 
+  853  awk -F '\t' {print NF}' headofawsreviews.tsv 
+  854  awk '\t' {print $NF}' headofawsreviews.tsv 
+  855  awk -v ychecker="Y" -F '\t' '{if (ychecker == $12) print $12}' headofawsreviews.tsv 
+  856  awk -v ychecker="Y" -F '\t' '{if (ychecker == $12) print $0}' 
+  857  awk -v ychecker="Y" -F '\t' '{if (ychecker == $12) print $0}' headofawsreviews.tsv
+  858  ls
+  859  less awsreviews.tsv 
+  860  ls
+  861  cd cs131/ws7
+  862  ls
+  863  awk -F '\t' '{if ($12 == Y) print}' headofawsreviews.tsv | head -n 5
+  864  awk -F '\t' '{if ($12 == Y) print}' headofawsreviews.tsv | head -n 10
+  865  awk -F '\t' '{if ($12 == Y) print}' awsreviews.tsv | head -n 10
+  866  awk -F '\t' '{if ($11 == Y) print}' headofawsreviews.tsv | head -n 10
+  867  awk -F '\t' '{if ($11 == Y) print}' headofawsreviews.tsv
+  868  awk -F '\t' '{print $11}' headofawsreviews.tsv | head -n 10
+  869  awk -F '\t' '{print $12}' headofawsreviews.tsv | head -n 10
+  870  awk -F '\t' '{if ($12==Y) print}' headofawsreviews.tsv | head -n 10
+  871  awk -F '\t' '{if ($12==Y) print $12}' headofawsreviews.tsv | head -n 10
+  872  awk -F '\t' '{if ($12==N) print $12}' headofawsreviews.tsv | head -n 10
+  873  awk -F '\t' '{if ($12==N) print $12}' headofawsreviews.tsv
+  874  awk -F '\t' '{if ($12=="N") print $12}' headofawsreviews.tsv
+  875  awk -F '\t' '{if ($12=="Y") print $12}' headofawsreviews.tsv | head -n 10
+  876  awk -F '\t' '{if ($12=="Y") print $12}' headofawsreviews.tsv > ylinecapture.txt
+  877  less ylinecapture.txt 
+  878  awk -F '\t' '{$12=="Y"}' headofawsreviews.tsv > ylinecapture.txt
+  879  less ylinecapture.txt 
+  880  awk -F '\t' '{if ($12=="Y") print $0}' headofawsreviews.tsv > ylinecapture.txt
+  881  less ylinecapture.txt 
+  882  awk -F '\t' '{if ($12=="Y") print $0}' awsreviews.tsv > verified.txt
+  883  wc -l < verified.txt 
+  884  head -n 20 verified.txt > verified_head20.txt
+  885  wc -l < verified_head20.txt 
+  886  ls
+  887  less ylinecapture.txt 
+  888  rm ylinecapture.txt 
+  889  ls
+  890  cut -f12 verified_head20.txt | head -n 10
+  891  ls
+  892  cut -f12 awsreviews.tsv | sort -r | uniq -c 
+  893  wc -l < verified
+  894  wc -l < verified.txt 
+  895  ls
+  896  clear
+  897  ls
+  898  cd cs131/ws6
+  899  ls
+  900  less dumpyregex.txt 
+  901  less idoutput.txt 
+  902  sed -n '1844161560p' awsreviews.tsv > 1844161560output.txt
+  903  las
+  904  ls
+  905  less 1844161560output.txt 
+  906  sed -n'1844161560p' awsreviews.tsv 
+  907  sed -n '1844161560p' awsreviews.tsv 
+  908  ls
+  909  sed -n '1844161560p' awsreviews.tsv > test.txt
+  910  less test.txt 
+  911  sed -n '/1844161560/p' awsreviews.tsv > test.txt
+  912  less test.txt 
+  913  wc -l < test.txt 
+  914  grep "1844161560" test.txt | wc -l
+  915  ls
+  916  sed -n '/1844161560/p' awsreviews.tsv > 1844161560output.txt
+  917  ls
+  918  less idoutput.txt 
+  919  wc -l < idoutput.txt 
+  920  rm idoutput.txt 
+  921  ls
+  922  wc -l < dumpyregex.txt 
+  923  wc -l < headofawsreviews.tsv 
+  924  less test.txt 
+  925  wc -l < test.txt 
+  926  rm test.txt 
+  927  ls
+  928  less 1844161560output.txt 
+  929  cp 1844161560output.txt test.txt
+  930  ls
+  931  less test.txt 
+  932  wc -l < test.txt 
+  933  sed -i '/<bc \//d' test.txt 
+  934  less test.txt 
+  935  sed -i '/<br \//d' test.txt 
+  936  less test.txt 
+  937  cp 1844161560output.txt test.txt
+  938  less test.txt 
+  939  sed -i '/<br \/>/d' test.txt 
+  940  less test.txt 
+  941  sed -En '/$(*.\t){11}N\t/p' headofawsreviews.tsv > test.txt
+  942  sed -En '/$(.*\t){11}N\t/p' headofawsreviews.tsv > test.txt
+  943  less test.txt 
+  944  egrep $'(.*\t){11}N\t' headofawsreviews.tsv | head -n 5
+  945  egrep $'(.*\t){11}N\t' headofawsreviews.tsv | cut -f12 | head -n 5
+  946  sed -En '/$(.*\t){11}N\t/p' headofawsreviews.tsv > test.txt
+  947  less test.txt 
+  948  sed -E '/$(.*\t){11}N\t/p' headofawsreviews.tsv > test.txt
+  949  less test.txt 
+  950  cut -f12 test.txt | head -n 10
+  951  sed -E '/$(.*\t){11}N\t/p' headofawsreviews.tsv > test.txt
+  952  less test.txt 
+  953  wc -l < test.txt 
+  954  ls
+  955  sed -E '/$(.*\t){11}N\t/p' headofawsreviews.tsv > test.txt
+  956  wc -l < headofawsreviews.tsv 
+  957  wc -l < test.txt 
+  958  ls
+  959  sed -E '/$(.*\t){11}N\t/p' headofawsreviews.tsv > test.txt
+  960  wc -l < test.txt 
+  961  less test.txt 
+  962  sed -En '/$(.*\t){11}N\t/p' headofawsreviews.tsv > test.txt
+  963  wc -l < test.txt 
+  964  egrep $'(.*\t){11}N\t' headofawsreviews.tsv | head -n 15
+  965  egrep $'(.*\t){11}N\t' headofawsreviews.tsv | cut -f12 | head -n 15
+  966  sed -En '/$(.*\t){11}N/p' headofawsreviews.tsv > test.txt
+  967  wc -l < test.txt 
+  968  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv > test.txt
+  969  wc -l < test.txt 
+  970  cut -f12 headofawsreviews.tsv | sort -r | uniq -c
+  971  sed -En '/(.*\s){11}N/p' headofawsreviews.tsv > test.txt
+  972  wc -l < test.txt 
+  973  man sed
+  974  sed -Ein $'/(.*\t){11}N/p' headofawsreviews.tsv > test.txt
+  975  wc -l < test.txt 
+  976  sed -Ein '/$(.*\t){11}N/p' headofawsreviews.tsv > test.txt
+  977  wc -l < test.txt 
+  978  sed -En '/$(.*\s){11}N/p' headofawsreviews.tsv > test.txt
+  979  wc -l < test.txt 
+  980  sed -En '/(.*\s){11}N/p' headofawsreviews.tsv > test.txt
+  981  wc -l < test.txt 
+  982  sed -En '/(.*\s){11}N/p' headofawsreviews.tsv > test.txt
+  983  wc -l < test.txt 
+  984  cut -f12 test.txt | sort -r | uniq -c
+  985  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv > test.txt
+  986  wc -l < test.txt 
+  987  sed -E '/(.*\s){11}N\s/p' headofawsreviews.tsv > test.txt
+  988  wc -l < test.txt 
+  989  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv > test.txt
+  990  wc -l < headofawsreviews.tsv
+  991  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv > test.txt
+  992  wc -l < test.txt 
+  993  cut -f12 test.txt | sort -r | uniq -c
+  994  sed -En '/(.*\s){11}N\s/p' awsreviews.tsv > fulltest.txt
+  995  wc -l < fulltest.txt 
+  996  cut -f12 fulltest.txt | sort -r | uniq -c
+  997  cd cs131/ws6
+  998  ls
+  999  wc -l < 1844161560output.txt 
+ 1000  less 1844161560output.txt 
+ 1001  wc -l < dumpyregex.txt 
+ 1002  rm dumpyregex.txt 
+ 1003  ls
+ 1004  wc -l , fulltest.txt 
+ 1005  ls
+ 1006  wc -l < fulltest.txt 
+ 1007  rm fulltest.txt 
+ 1008  rm headofawsreviews.tsvn
+ 1009  wc -l < test.txt 
+ 1010  rm test.txt 
+ 1011  ls
+ 1012  sed -En '/(.*\s){11}N\s/p' awsreviews.tsv > test.txt
+ 1013  cut -f12 test.txt | sort -r | uniq -c
+ 1014  ls
+ 1015  cut -f12 shortest.txt | sort -r | uniq -c
+ 1016  rm test.txt 
+ 1017  ls
+ 1018  cut -f12 1844161560output.txt | sort -r | uniq -c
+ 1019  rm 1844161560output.txt 
+ 1020  ls
+ 1021  wc -l < awsreviews.tsv 
+ 1022  wc -l < headofawsreviews.tsv 
+ 1023  wc -l < shortest.txt 
+ 1024  cut -f12 shortest.txt | sort -r | uniq -c
+ 1025  rm shortest.txt 
+ 1026  ls
+ 1027  wc -l < headofawsreviews.tsv 
+ 1028  ls
+ 1029  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv | head -n 7
+ 1030  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv | cut -f12 | head -n 7
+ 1031  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv | cut -f12 | head -n 15
+ 1032  sed -En '/(.*\\s){11}N\\s/p' headofawsreviews.tsv | cut -f12 | head -n 15
+ 1033  less headofawsreviews.tsv 
+ 1034  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv | cut -f12 | head -n 15
+ 1035  cut -f13 headofawsreviews.tsv | sort -r | uniq -c
+ 1036  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv | cut -f12 | head -n 15
+ 1037  sed -En '/(.*\s){12}Great\s/p' headofawsreviews.tsv | cut -f12 | head -n 15
+ 1038  sed -En '/(.*\s){12}Great\s/p' headofawsreviews.tsv | cut -f13
+ 1039  sed -En '/(.*\s){11}n\s/p' headofawsreviews.tsv | cut -f12 | head -n 5
+ 1040  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv | cut -f12 | head -n 5
+ 1041  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv | cut -f12 | sort -r | uniq -c
+ 1042  sed -En '/(.*\s){11}Y\s/p' headofawsreviews.tsv | cut -f12 | sort -r | uniq -c
+ 1043  sed -En '/(.*\s){11}\N\s/p' headofawsreviews.tsv | cut -f12 | sort -r | uniq -c
+ 1044  sed -En '/(.*\s){11}Y\s/p' headofawsreviews.tsv | cut -f12 | sort -r | uniq -c
+ 1045  sort -r headofawsreviews.tsv | uniq -c
+ 1046  sed -En '/(.*\s){11}Y\s/p' headofawsreviews.tsv | cut -f12 | sort -r | uniq -c
+ 1047  ls
+ 1048* 
+ 1049  sed -En '/(.*\s){11}Y\s/p' headofawsreviews.tsv | cut -f12 | sort -r | uniq -c
+ 1050  sed -En '/(.*\s){11}Y\s/p' headofawsreviews.tsv > test.txt
+ 1051  ls
+ 1052  less test.txt 
+ 1053  cut -f12 test.txt 
+ 1054  sed -En '/(.*\s){11}!Y\s/p' headofawsreviews.tsv > test.txt
+ 1055  less test.txt 
+ 1056  sed -En '/(.*\s){11}!Y\s/p' headofawsreviews.tsv | wc -l
+ 1057  sed -En '/(.*\s){11}Y\s/p' headofawsreviews.tsv | wc -l
+ 1058  sed -En '/(.*\s){11}N\s/p' headofawsreviews.tsv | wc -l
+ 1059  sed -En '/!(.*\s){11}Y\s/p' headofawsreviews.tsv | wc -l
+ 1060  sed -En '!/(.*\s){11}Y\s/p' headofawsreviews.tsv | wc -l
+ 1061  sed -En '/(.*\s){11}Y\s/p' headofawsreviews.tsv | wc -l
+ 1062  sed -En '/(.*\s){11}"Y"\s/p' headofawsreviews.tsv | wc -l
+ 1063  sed -En '/(.*\s){11}Y\s/p' headofawsreviews.tsv | wc -l
+ 1064  sed -n '/1844161560/p' headofawsreviews.tsv > 1844161560.txt
+ 1065  less 1844161560.txt 
+ 1066  sed -n '/1844161560/p' awsreviews.tsv > 1844161560.txt
+ 1067  less 1844161560.txt 
+ 1068  wc -l < 1844161560.txt 
+ 1069  ls
+ 1070  less test.txt 
+ 1071  rm test.txt 
+ 1072  ls
+ 1073  sed -n 's/,/\ \/g' 1844161560.txt > testremove.txt
+ 1074  sed -n 's/,/ /g' 1844161560.txt > testremove.txt
+ 1075  less testremove.txt 
+ 1076  sed -n 's/,/\ \\/g' 1844161560.txt > testremove.txt
+ 1077  less testremove.txt 
+ 1078  sed -n 's/,/\ \//g' 1844161560.txt > testremove.txt
+ 1079  less testremove.txt 
+ 1080  less 1844161560.txt 
+ 1081  grep <br /> headofawsreviews.tsv | head -n 2
+ 1082  ls
+ 1083  grep "<br />" headofawsreviews.tsv | head -n 2
+ 1084  grep "<br  />" headofawsreviews.tsv | head -n 2
+ 1085  grep "<br />" headofawsreviews.tsv | head -n 2
+ 1086  sed -n 's/<br \/>/ /g' 1844161560.txt > test.txt
+ 1087  less test
+ 1088  less test.txt 
+ 1089  sed 's/<br \/>/ /g' 1844161560.txt > test.txt
+ 1090  ls
+ 1091  less testremove.txt 
+ 1092  rm testremove.txt 
+ 1093  ls
+ 1094  less test.txt 
+ 1095  grep "<br /"
+ 1096  grep "<br />" test.txt 
+ 1097  grep "<br />" headofawsreviews.tsv | head -n 2
+ 1098  ls
+ 1099  rm test.txt 
+ 1100  ls
+ 1101  less 1844161560.txt 
+ 1102  sed -e 's/,/ /g' -e 's/./ /g' -e 's/;/ /g' -e 's/to/ /g' 1844161560.txt > removingthings.txt
+ 1103  ls
+ 1104  less removingthings.txt 
+ 1105  wc -l < removingthings.txt 
+ 1106  less removingthings.txt 
+ 1107  sed -e 's/,//g' -e 's/.//g' -e 's/;//g' -e 's/to//g' 1844161560.txt > removingthings.txt
+ 1108  less removingthings.txt 
+ 1109  wc -l < removingthings.txt 
+ 1110  sed -e 's/,/ /g' -e 's/./ /g' -e 's/;/ /g' -e 's/to/ /g' 1844161560.txt > removingthings.txt
+ 1111  sed -e 's/to/ /g' 1844161560.txt > removingthings.txt
+ 1112  less removingthings.txt 
+ 1113  sed -e 's/,/ /g' -e 's/./ /g' -e 's/;/ /g' -e 's/to/ /g' 1844161560.txt > removingthings.txt
+ 1114  less removingthings.txt 
+ 1115  sed -e 's/,/ /g ; s/./ /g ; s/;/ /g ; s/to/ /g' 1844161560.txt > removingthings.txt
+ 1116  less removingthings.txt 
+ 1117  sed 's/,/ /g' 1844161560.txt > removingthings.txt 
+ 1118  less rmeo
+ 1119  less removingthings.txt 
+ 1120  sed 's/./ /g' removingthings.txt > dotsgone.txt
+ 1121  less dotsgone.txt 
+ 1122  less removingthings.txt 
+ 1123  sed 's/./ /g' removingthings.txt > dotsgone.txt
+ 1124  wc -l < dotsgone.txt 
+ 1125  sed 's/\./ /g' removingthings.txt > dotsgone.txt
+ 1126  less dotsgone.txt 
+ 1127  sed 's/;/ /g' dotsgone.txt > semicolonsgone.txt
+ 1128  less semicolonsgone.txt 
+ 1129  sed 's/to/ /g' semicolonsgone.txt > togone.txt
+ 1130  less togone.txt 
+ 1131  sed -e 's/,/ /g' -e 's/\./ /g' -e 's/;/ /g' -e 's/to/ /g' 1844161560.txt > allinoneremove.txt
+ 1132  less allinoneremove.txt 
+ 1133  sed -e 's/,/ /g' -e 's/\./ /g' -e 's/;/ /g' -e 's/to/ /g ; s/<br \/>/CHICKENS/g' 1844161560.txt > allinoneremove.txt
+ 1134  less allinoneremove.txt 
+ 1135  ls
+ 1136  man history
+ 1137  history > cmds.log
