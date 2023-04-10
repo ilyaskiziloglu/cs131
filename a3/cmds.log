@@ -1,4 +1,16 @@
- 1008  cut -f6 extend_nolf2.tsv | head -n 10
+The below work is for proof of my own submission. The two commands I used and that are included in the github submission are: 
+
+For task 1) 
+
+    1. awk -F'\t' '{if ($6!="") print $6" "$2}' extend_nolf2.tsv > attempt2task1.txt
+
+For task 2)  
+
+    1. awk '{idcount[$1]++} {for (i in idcount) if (idcount[i] >= 3) print i"     "$2}' task1.txt > testprintids.txt
+
+I was unfortunately not able to get the third part to work despite my best attempts. 
+
+1008  cut -f6 extend_nolf2.tsv | head -n 10
  1009  awk -F'\t' '{if ($6!="") print $2\t$6}' extend_nolf2.tsv > newattempt.txt
  1010  awk -F'\t' '{if ($6!="") print $2[[:space:]]$6}' extend_nolf2.tsv > newattempt.txt
  1011  awk -F'\t' '{if ($6!="") print $2 [[:space:]]$6}' extend_nolf2.tsv > newattempt.txt
