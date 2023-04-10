@@ -1,0 +1,193 @@
+ 1008  cut -f6 extend_nolf2.tsv | head -n 10
+ 1009  awk -F'\t' '{if ($6!="") print $2\t$6}' extend_nolf2.tsv > newattempt.txt
+ 1010  awk -F'\t' '{if ($6!="") print $2[[:space:]]$6}' extend_nolf2.tsv > newattempt.txt
+ 1011  awk -F'\t' '{if ($6!="") print $2 [[:space:]]$6}' extend_nolf2.tsv > newattempt.txt
+ 1012  awk -F'\t' '{if ($6!="") (print $2 $6)}' extend_nolf2.tsv > newattempt.txt
+ 1013  awk -F'\t' '{if ($6!="") print $2 $6}' extend_nolf2.tsv > newattempt.txt
+ 1014  less newattempt.txt 
+ 1015  awk -F'\t' '{if ($6!="") print $6	$2}' extend_nolf2.tsv > newattempt.txt
+ 1016  less newattempt.txt 
+ 1017  awk -F'\t' '{if ($6!="") print $6[[:space:]]$2}' extend_nolf2.tsv > newattempt.txt
+ 1018  awk -F'\t' '{if ($6!="") print $6"	"$2}' extend_nolf2.tsv > newattempt.txt
+ 1019  less newattempt.txt 
+ 1020  cut -f2 newattempt.txt | head -n 5
+ 1021  less newattempt.txt 
+ 1022  cut -f2 newattempt.txt | head -n 13
+ 1023  awk -F'\t' '{if ($6!="") print $6"	"$2}' extend_nolf2.tsv > newattempt.txt
+ 1024  less newattempt.txt 
+ 1026  less cuttest.txt 
+ 1027  rm cuttest.txt 
+ 1029  less col6cut.txt 
+ 1030  rm col6cut.txt 
+ 1032  less awkscript 
+ 1033  less replytoawkscript 
+ 1034  rm replytoawkscript 
+ 1036  less test.txt 
+ 1037  rm test.txt 
+ 1038  rm newattempt.txt 
+ 1040  awk -F'\t' '{if ($6!="") print $6"	"$2}' extend_nolf2.tsv > newtestattempt.txt
+ 1041  less newtestattempt.txt 
+ 1043  cut -f6 extend_nolf2.tsv | head -n 5
+ 1044  awk -F'\t' '{if ($6!="") print $6"	"$2}' extend_nolf2.tsv > newtestattempt.txt
+ 1046  less newtestattempt.txt 
+ 1048  less newtestattempt.txt 
+ 1049  cut -k1 newtestattempt.txt | sort -hr | uniq -c | sort -hr > testdump.txt
+ 1050  cut -f1 newtestattempt.txt | sort -hr | uniq -c | sort -hr > testdump.txt
+ 1051  less testdump.txt 
+ 1053  less testdump.txt 
+ 1054  less newtestattempt.txt 
+ 1056  less testdump.txt 
+ 1057  less newtestattempt.txt 
+ 1058  awk 'NR' newtestattempt.txt | head -n 5
+ 1059  awk 'FNR' newtestattempt.txt
+ 1060  awk -F'\t' '{if ($6!="") print $6"	"$2}' extend_nolf2.tsv > newtestattempt.txt
+ 1061  less newtestattempt.txt 
+ 1063  awk '{for (i in NF) print $1" "$2}' newtestattempt.txt > outdump.txt
+ 1065  less testdump.txt 
+ 1066  rm testdump.txt 
+ 1068  less outdump.txt 
+ 1069  rm outdump.txt 
+ 1071  less newtestattempt.txt 
+ 1072  awk '{count[$1]++} {for (id in count) if (id >= 3) print id}' newtestattempt.txt > task2test.txt
+ 1073  less task2test.txt 
+ 1074  awk '{count[$1]++} {for (id in count) if (id >= 3) print id}' newtestattempt.txt > task2test.txt
+ 1075  sort -r task2test.txt | uniq -c | sort hr > task2sortoutput.txt
+ 1076  sort -r task2test.txt | uniq -c | sort -hr > task2sortoutput.txt
+ 1078  less newtestattempt.txt 
+ 1079  less task2
+ 1080  less task2sortoutput.txt 
+ 1081  rm task2sortoutput.txt 
+ 1083  less task2test.txt 
+ 1084  rm task2test.txt 
+ 1086  awk '{count[$1]++} {for (id in count) if (id >= 3) print id}' newtestattempt.txt > task2test.txt
+ 1087  awk '{count[$1]++} {for (id in count) print id}' newtestattempt.txt > test.txt
+ 1088  less test.txt 
+ 1089  rm task2test.txt 
+ 1092  awk '{count[$1]++} {for (id in count) print id, count[$1]}' newtestattempt.txt > test.txt
+ 1093  less test.txt 
+ 1094  awk '{count[$1]++} END {for (id in count) print id, count[id]}' newtestattempt.txt > test.txt
+ 1095  less test.txt 
+ 1096  awk '{count[$1]++} END {for (id in count) if (count[id] > 3) print $0}' newtestattempt.txt > test2.txt
+ 1097  less test2.txt
+ 1098  sort -r test2.txt | uniq -c | sort -hr > dumpy.txt
+ 1099  less dumpy.txt 
+ 1100  rm dumpy.txt 
+ 1101  awk '{count[$1]++} END {for (id in count) print id, count[id]}' newtestattempt.txt > test.txt
+ 1102  less test.txt 
+ 1104  less test2.txt 
+ 1105  less test.txt 
+ 1106  rm test2.txt 
+ 1108  awk '{count[$1]++} END {for (id in count) print id, count[id]}' newtestattempt.txt > test2.txt
+ 1109  less test2.txt 
+ 1110  rm test2.txt 
+ 1111  awk '{count[$1]++} END {for (id in count) if (count[id] >= 3) print $0}' newtestattempt.txt > latetest.txt
+ 1112  less latetest.txt 
+ 1113  sort -r latetest.txt | uniq -c | sort -hr > quicktest.txt
+ 1114  less quicktest.txt 
+ 1115  rm quicktest.txt 
+ 1117  less newtestattempt.txt 
+ 1118  less test.txt 
+ 1119  mv test.txt idwithcount.txt
+ 1121  less latetest.txt 
+ 1122  rm latetest.txt 
+ 1124  less newtestattempt.txt 
+ 1125  mv newtestattempt.txt task1.txt
+ 1127  less task1.txt 
+ 1128  awk '{count[$1]++} END {for (id in count) if (count[id] <= 3) print $0}' newtestattempt.txt > dump.txt
+ 1129  awk '{count[$1]++} END {for (id in count) if (count[id] <= 3) print $0}' task1.txt > dump.txt
+ 1131  less idwithcount.txt 
+ 1132  less task1.txt 
+ 1133  less dump.txt 
+ 1134  wc -l < dump.txt 
+ 1135  wc -l < idwithcount.txt 
+ 1136  wc -l < task1.txt 
+ 1137  less task1.txt 
+ 1138  sort -hr task1.txt | uniq -c | sort -hr > task1sorted.txt
+ 1139  less task1sorted.txt 
+ 1140  vim task1sorted.txt 
+ 1141  wc -l < task1sorted.txt 
+ 1142  rm task1sorted.txt 
+ 1144  less idwithcount.txt 
+ 1145  awk '{count[$1]++} END {for (id in count) if (count[$1] >= 3) print $0}' task1.txt > dump.txt
+ 1146  less dump.txt 
+ 1147  awk '{count[$1]++} END {for (id in count) if (count[$id] >= 3) print $1"	"$2}' task1.txt > dump.txt
+ 1148  less dump.txt 
+ 1149  awk '{count[$1]++} END {for (id in count) if (count[id] >= 3) print $1"	"$2}' task1.txt > dump.txt
+ 1150  less dump.txt 
+ 1151  awk '{count[$1]++} END {for (id in count) if (id >= 3) print $1"	"$2}' task1.txt > dump.txt
+ 1152  wc -l < dump.txt 
+ 1153  less dump.txt 
+ 1155  awk 'NR==FNR{idcount[$1]++;next}a[$1]>3' task1.txt > dump.txt
+ 1156  less dump.txt 
+ 1157  awk 'NR==FNR{idcount[$1]++;next} {for (i in idcount) a[$1]>3' task1.txt > dump.txt
+ 1158  awk 'NR==FNR{idcount[$1]++;next} {for (i in idcount) a[$1]>3}' task1.txt > dump.txt
+ 1159  less dump.txt 
+ 1160  awk 'NR==FNR {idcount[$1]++;next} {for (i in idcount) a[$1]>3}' task1.txt > dump.txt
+ 1161  less dump.txt 
+ 1162  awk 'FNR==NR {idcount[$1]++;next} {for (i in idcount) a[$1]>3}' task1.txt > dump.txt
+ 1163  less dump.txt 
+ 1164* awk '{idcount[$1]++;next} idcount[$1]>=3' task1.txt > dump.txt 
+ 1165  less dump.txt 
+ 1166  awk -F'\t' '{if ($6!=="") print $6"	"$2}' extend_nolf2.tsv > attempt2task1.txt
+ 1167  awk -F'\t' '{if ($6!="") print $6"	"$2}' extend_nolf2.tsv > attempt2task1.txt
+ 1168  less attempt2task1.txt 
+ 1170  wc -l < attempt2task1.txt 
+ 1171  wc -l < task1.txt 
+ 1173  awk '{idcount[1+]}' task1.txt > testprintids.txt
+ 1174  awk '{idcount[$1]++}' task1.txt > testprintids.txt
+ 1175  less testprintids.txt 
+ 1176  awk '{idcount[$1]++; for (i in idcount) print idcount[i]}' task1.txt > testprintids.txt
+ 1177  less testprintids.txt 
+ 1178  awk '{idcount[$1]++; for (i in idcount) print idcount[i]"	"i}' task1.txt > testprintids.txt
+ 1179  less testprintids.txt 
+ 1180  cut -f1 testprintids.txt | head -n 3
+ 1181  awk '{idcount[$1]++; for (i in idcount) print idcount[i]"	"i}' task1.txt > testprintids.txt
+ 1182  less testprintids.txt 
+ 1183  awk '{idcount[$1]++; for (i=1 in idcount) print idcount[i]"	"i}' task1.txt > testprintids.txt
+ 1184  awk 'BEGIN{i=1} {idcount[$1]++; for (i in idcount) print idcount[i]"	"i}' task1.txt > testprintids.txt
+ 1185  less testprintids.txt 
+ 1186  awk 'BEGIN{i=2} {idcount[$1]++; for (i in idcount) print idcount[i]"	"i}' task1.txt > testprintids.txt
+ 1187  less testprintids.txt 
+ 1188  awk '{idcount[$1]++; for (i=1; i<=NF;i++) if (idcount[i] >= 3)print $0}' task1.txt > testprintids.txt
+ 1189  less testprintids.txt 
+ 1190  awk '{idcount[$1]++} {for (i=1; i<=NF;i++) if (idcount[i] >= 3)print $0}' task1.txt > testprintids.txt
+ 1191  less testprintids.txt 
+ 1192  awk '{idcount[$1]++} {for (i=1;i<=NF;i++) if (idcount[i] >= 3)print $0}' task1.txt > testprintids.txt
+ 1193  less testprintids.txt 
+ 1194  awk '{idcount[$1]++} {for (i=1;i<=NF;i++) print i}' task1.txt > testprintids.txt
+ 1195  less testprintids.txt 
+ 1196  wc -l < testprintids.txt 
+ 1197  wc -l < task1.txt 
+ 1198  wc task1.txt 
+ 1199  man wc
+ 1200  awk '{idcount[$1]++} {for (i=1;i<=NF/2;i++) print i}' task1.txt > testprintids.txt
+ 1201  less testprintids.txt 
+ 1202  wc -l < testprintids.txt 
+ 1203  awk '{idcount[$1]++} {for (i=1;i<=FNR;i++) print i}' task1.txt > testprintids.txt
+ 1204  less testprintids.txt 
+ 1205  wc -l < testprintids.txt 
+ 1206  awk '{idcount[$1]++} {for (i in idcount) print i}' task1.txt > testprintids.txt
+ 1207  less testprintids.txt 
+ 1208  wc -l < testprintids.txt 
+ 1209  sed 's/in_reply_to_user_id/d' testprintids.txt > testprintidsdeleted.txt
+ 1210  sed 's/in_reply_to_user_id//d' testprintids.txt > testprintidsdeleted.txt
+ 1211  sed '/in_reply_to_user_id/d' testprintids.txt > testprintidsdeleted.txt
+ 1212  less testprintidsdeleted.txt 
+ 1213  wc -l < testprintidsdeleted.txt 
+ 1214  awk '{idcount[$1]++} {for (i in idcount) if (idcount[i] >= 3) print $1}' task1.txt > testprintids.txt
+ 1215  less testprintids
+ 1216  less testprintids.txt
+ 1217  wc -l < testprintids.txt
+ 1219  less awkscript 
+ 1220  mv awkscript awkscript.awk
+ 1221  rm attempt2task1.txt 
+ 1222  less dump.txt 
+ 1223  rm dump.txt 
+ 1225  less idwithcount.txt 
+ 1226  wc -< testprintidsdeleted.txt 
+ 1227  wc -l < testprintidsdeleted.txt 
+ 1228  wc -l < testprintids.txt 
+ 1229  less testprintids
+ 1230  less testprintids.txt 
+ 1231  rm testprintidsdeleted.txt testprintids.txt 
+ 1233  awk '{idcount[$1]++} {for (i in idcount) if (idcount[i] >= 3) print $1}' task1.txt > testprintids.txt
