@@ -5,7 +5,11 @@ cp winetasting.csv TRAINwinetaste.csv
 
 fileheader=$(head -n 1 winetasting.csv | sed 's/;/,/g')
 
-echo "$fileheader"
+echo "$fileheader" > fileheaderfile.csv
+
+grep fixed fileheaderfile.csv >> TESTwinetaste.csv
+
+sed -i '1h;1d;$!H;$!d;G' TESTwinetaste.csv 
 
 filelength=$(wc -l < winetasting.csv)
 
@@ -44,5 +48,6 @@ sed -i 's/;/,/g' TRAINwinetaste.csv
 
 echo "$fileheader" >> TESTwinetaste.csv
 
+#To move the files from the a4 directory into their respective test & train folders 
 mv TRAINwinetaste.csv  /home/ilyas_kiziloglu/cs131/a4/train/TRAINwinetaste.csv
 mv TESTwinetaste.csv /home/ilyas_kiziloglu/cs131/a4/test/TESTwinetaste.csv
