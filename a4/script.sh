@@ -7,9 +7,12 @@ fileheader=$(head -n 1 winetasting.csv | sed 's/;/,/g')
 
 echo "$fileheader" > fileheaderfile.csv
 
-grep fixed fileheaderfile.csv >> TESTwinetaste.csv
+#Edit 4_24: Going to flip the order of these to get header put on top
+#grep fixed fileheaderfile.csv >> TESTwinetaste.csv
 
-sed -i '1h;1d;$!H;$!d;G' TESTwinetaste.csv 
+
+#This was an attempt to move the header from the bottom of the file to the top
+#sed -i '1h;1d;$!H;$!d;G' TESTwinetaste.csv 
 
 filelength=$(wc -l < winetasting.csv)
 
@@ -46,7 +49,12 @@ sed -i 's/;/,/g' TRAINwinetaste.csv
 
 #paste -s  $fileheader TESTwinetaste.csv > dumpytest.txt
 
-echo "$fileheader" >> TESTwinetaste.csv
+#To append the TESTdata under the header
+cat TESTwinetaste.csv >> fileheaderfile.csv
+
+mv fileheaderfile.csv TESTwinetaste.csv
+
+#echo "$fileheader" >> TESTwinetaste.csv
 
 #To move the files from the a4 directory into their respective test & train folders 
 mv TRAINwinetaste.csv  /home/ilyas_kiziloglu/cs131/a4/train/TRAINwinetaste.csv
