@@ -3,7 +3,7 @@ be broken up along one of a few different lines: intermediate/development files,
 finalized scripts. For example: 
 
 awk...script.awk files were used to obtain either intermediate or finalized files. 
-cleanedcombinedoutput contains the final three columns (county, # laid off, zipcode)
+combinedcountieslayoff contains the final three columns (county, # laid off, zipcode)
 numlayoff, layoffpluszip, zipcode, counties, for example, all contaion what their names suggest
 
 Ultimately, the cmds.log file can be used to get a good understanding of the steps taken for the submission.  
