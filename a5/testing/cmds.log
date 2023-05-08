@@ -1,0 +1,1000 @@
+  229  rm rwine/
+  230  vim Makefile 
+  231  ls
+  232  rm rwine/
+  233  make rwine/test/data.csv
+  234  ls
+  235  cd ~
+  236  ls
+  237  cd cs131
+  238  ls
+  239  mkdir a5
+  240  ls
+  241  cd a5
+  242  ls
+  243  ls
+  244  cd cs131
+  245  ls
+  246  cd a54
+  247  ls
+  248  cd a5
+  249  ls
+  250  cd ..
+  251  cd ~
+  252  ls
+  253  mv warn_report.csv cs131/a5
+  254  ls
+  255  cd cs131
+  256  ls
+  257  cd a5
+  258  ls
+  259  less warmn
+  260  less warn_report.csv 
+  261  grep google
+  262  grep google warn_report.csv 
+  263  grep -i google warn_report.csv 
+  264  grep -i qualcomm warn_report.csv 
+  265  grep -i nvidia  warn_report.csv 
+  266  grep -i "nvidia'  warn_report.csv 
+  267  grep -i "nvidia" warn_report.csv 
+  268  grep -i "LAM" warn_report.csv 
+  269  grep -i "LAM research" warn_report.csv 
+  270  grep -i "western digital" warn_report.csv 
+  271  grep -i "western digital" warn_report.csv 
+  272  grep -i "intel" warn_report.csv 
+  273  grep -i "intel" warn_report.csv | cut -f7 
+  274  grep -i "intel" warn_report.csv | cut -d , -f7 
+  275  grep -i "intel" warn_report.csv | cut -d , -f7 > dump.txt
+  276  paste -s -d "+" dump.txt | bc
+  277  l
+  278  ls
+  279  rm dump.txt 
+  280  cd ..
+  281  ls
+  282  cd a4
+  283  ls
+  284  less d2.csv 
+  285  cp inclassscript.sh aiwork.cfg awkfile.awk ../a5
+  286  cd output/
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd test/
+  291  ls
+  292  cd ..
+  293  cd ../a5
+  294  ls
+  295  vim inclassscript.sh 
+  296  man shuf
+  297  ls
+  298  shuf warn_report.csv > dump.txt
+  299  less dump.txt 
+  300  man shuf
+  301  ls
+  302  less warn_report.csv 
+  303  head -n 6 warn_report.csv 
+  304  head -n 7 warn_report.csv 
+  305  head -n 6 warn_report.csv 
+  306  head -n 6 warn_report.csv > warn_head.txt
+  307  ls
+  308  less warn_head.txt 
+  309  vim warn_head.txt 
+  310  less warn_head.txt 
+  311  ls
+  312  cd ../a4
+  313  ls
+  314  vim a4
+  315  vim a4script.sh 
+  316  vim inclassscript.sh 
+  317  cp a4script.sh ../a5
+  318  cd ../a5
+  319  sl
+  320  ls
+  321  mv a4script.sh a5testingscript.sh
+  322  ls
+  323  rm dump.txt 
+  324  ls
+  325  rm inclassscript.sh 
+  326  ls
+  327  rm warn_head.txt 
+  328  ls
+  329  wc -l < warn_report.csv 
+  330  vim a5testingscript.sh 
+  331  ls
+  332  cd ..a4
+  333  cd ../a4
+  334  ls
+  335  vim inclassscript.sh 
+  336  cd ../a5
+  337  ls
+  338  vim a5testingscript.sh 
+  339  ls
+  340  mkdir warnanalysis
+  341  cd warnanalysis/
+  342  mkdir test
+  343  mkdir train
+  344  ls
+  345  cd ..
+  346  ls
+  347  vim a5testingscript.sh 
+  348  wc -l < warn_report.csv 
+  349  vim a5testingscript.sh 
+  350  ls
+  351  mv a5testingscript.sh a5wipscript.sh
+  352  ls
+  353  source a5wipscript.sh 
+  354  vim a5wipscript.sh 
+  355  source a5wipscript.sh 
+  356  cd ..
+  357  ls
+  358  cd classwork/
+  359  ls
+  360  cd makeversioncontrol/
+  361  ls
+  362  rm rwine/
+  363  vim Makefile 
+  364  make rwine/test/data.csv
+  365  ls
+  366  vim Makefile 
+  367  rm -rf rwine/
+  368  make rwine/test/data.csv
+  369  ls
+  370  wc -l rwine/test/data.csv
+  371  cd rwine/
+  372  ls
+  373  wc -l < data.csv 
+  374  cd test/
+  375  ls
+  376  cd ..
+  377  ls
+  378  cd train/
+  379  ls
+  380  cd ..
+  381  ls
+  382  vim mysplit.sh 
+  383  ls
+  384  vim mysplit.sh 
+  385  ls
+  386  rm -r rwine/
+  387  make rwine/test/data.csv
+  388  cd rwine/
+  389  ls
+  390  cd test/
+  391  ls
+  392  cd ..
+  393  cd .
+  394  cd ..
+  395  ls
+  396  vim mysplit.sh 
+  397  vim Makefile 
+  398  make
+  399  rm -r rwine/
+  400  make
+  401  vim Makefile 
+  402  make
+  403  vim Makefile 
+  404  ls rwine/
+  405  cat rwine/binary.csv 
+  406  cat rwine/data.csv 
+  407  cat rwine/clean.csv 
+  408  vim mysplit.sh 
+  409  ls
+  410  vim Makefile 
+  411  ls rwine/
+  412  vim Makefile 
+  413  make
+  414  rm -r rwine/
+  415  make
+  416  cat rwine/clean.csv 
+  417  vim Makefile 
+  418  rm -r rwine/
+  419  make
+  420  cat rwine/data.csv 
+  421  :q
+  422  vim Makefile 
+  423  rm -f rwine/
+  424  rm -rf rwine/
+  425  make
+  426  ls
+  427  cd rwine/
+  428  ls
+  429  cd data.csv 
+  430  ls
+  431  cd train/
+  432  ls
+  433  less cleandata.csv 
+  434  cd ..
+  435  cd ../..
+  436  ls
+  437  cd ../a5
+  438  ls
+  439  vim a5wipscript.sh 
+  440  vim aiwork.cfg 
+  441  ls
+  442  less warn_report-csv
+  443  less warn_report.csv
+  444  ls
+  445  lscpu
+  446  ls
+  447  sudo apt install w3m w3m-img
+  448  apt-get
+  449  clear
+  450  apt-get
+  451  sudo apt-get remove docker docker-engine docker.io containerd runc
+  452  sudo apt-get updarte
+  453  sudo apt-get update
+  454  sudo apt-get install     ca-certificates     curl     gnupg
+  455  sudo install -m 0755 -d /etc/apt/keyrings
+  456  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  457  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  458  echo   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+  459    "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  460  sudo apt-get update
+  461  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  462  sudo docker run hello-world
+  463  sudo apt install w3m w3m-img
+  464  docker images
+  465  sudo docker images
+  466  docker ps
+  467  sudo groupadd docker
+  468  sudo usermod -aG docker ${ilyaskiziloglu}
+  469  su -s ${ilyaskiziloglu}
+  470  su --s ${ilyaskiziloglu}
+  471  docker run hello-world
+  472  clear
+  473  sudo docker images
+  474  sudo docker ps
+  475  man docker
+  476  sudo docker ps -a
+  477  docker run -it busybox sh
+  478  sudo docker run -it busybox sh
+  479  docker pull ubuntu
+  480  sudo docker pull ubuntu
+  481  ls
+  482  cd cs131
+  483  ls
+  484  cd a45
+  485  cd a5
+  486  ld
+  487  ls
+  488  clear
+  489  ls
+  490  cd warn
+  491  cd warnanalysis/
+  492  ls
+  493  cd ..
+  494  vim a5wipscript.sh 
+  495  ls
+  496  vim awkfile.awk 
+  497  ls
+  498  less awkfile.awk 
+  499  vim aiwork.cfg 
+  500  ls
+  501  cd cs131
+  502  ls
+  503  cd a5
+  504  ls
+  505  cd warn
+  506  cd warnanalysis/
+  507  ks
+  508  ls
+  509  less warnheaderfile.csv 
+  510  less warncopy.csv 
+  511  cd test/
+  512  ls
+  513  cd .. /train
+  514  cd .. /cd train
+  515  cd .. train
+  516  cd ..
+  517  cd train/
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd ..
+  522  ls
+  523  vim a5wipscript.sh 
+  524  ls
+  525  cp warn_report.csv testwarn.csv
+  526  ls
+  527  less testwarn.csv 
+  528  man cut
+  529  cut -d, -f7 -f8 testwarn.csv > testwarncut.csv
+  530  cut -d, -f7,8 testwarn.csv > testwarncut.csv
+  531  less testwarncut.csv 
+  532  ls
+  533  less awkfile.awk 
+  534  cp awkfile.awk testawkfile.awk
+  535  ls
+  536  vim testawkfile.awk 
+  537  vim awkfile.awk 
+  538  awk -f testawkfile.awk testwarn.csv
+  539  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  540  less dumpy.csv 
+  541  :q!
+  542  vim testawkfile.awk 
+  543  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  544  less dumpy.csv 
+  545  vim testawkfile.awk 
+  546  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  547  less dumpy.csv 
+  548  vim testawkfile.awk 
+  549  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  550  vim testawkfile.awk 
+  551  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  552  less dumpy.csv 
+  553  vim dumpy.csv 
+  554  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  555  ls
+  556  vim awkfile.awk 
+  557  vim testawkfile.awk 
+  558  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  559  less dumpy.csv 
+  560  less warn_report.csv 
+  561  ls
+  562  vim testawkfile.awk 
+  563  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  564  less dumpy.csv 
+  565  !
+  566  vim testawkfile.awk 
+  567  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  568  less dumpy.csv 
+  569  vim testawkfile.awk 
+  570  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  571  less dumpy.csv 
+  572  vim testawkfile.awk 
+  573  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  574  less dumpy.csv 
+  575  less testwarncut.csv 
+  576  less dumpy.csv 
+  577  vim testawkfile.awk 
+  578  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  579  vim dumpy.csv 
+  580  vim testawkfile.awk 
+  581  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  582  less dumpy.csv 
+  583  awk '$7 ~ /Layoff/ {print} || ~/Closure/ {print}' testwarn.csv > dumpy.csv 
+  584  awk '$7 ~ /Layoff/ {print} || $7 ~/Closure/ {print}' testwarn.csv > dumpy.csv 
+  585  awk '$7 ~ /Layoff/ {print}' -e '$7 ~/Closure/ {print}' testwarn.csv > dumpy.csv 
+  586  awk '$7 ~ /Layoff/ {print}' testwarn.csv > dumpy.csv 
+  587  less dumpy.csv 
+  588  vim awkfile.awk 
+  589  ls
+  590  vim testawkfile.awk 
+  591  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  592  vim testawkfile.awk 
+  593  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  594  vim testawkfile.awk 
+  595  ]less testwarn
+  596  ls
+  597  less testwarn.csv 
+  598  vim testawkfile.awk 
+  599  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  600  less dumpy.csv 
+  601  vim testawkfile.awk 
+  602  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  603  less dumpy.csv 
+  604  vim testawkfile.awk 
+  605  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  606  less dumpy.csv 
+  607  vim testawkfile.awk 
+  608  awk -f testawkfile.awk testwarn.csv > dumpy.csv
+  609  less dumpy.csv 
+  610  ls
+  611  mkdir testing
+  612  ls
+  613  mv testawkfile.awk testwarn.csv testwarncut.csv testing
+  614  ls
+  615  ls -la testing/
+  616  ls
+  617  mv dumpy.csv testing/
+  618  ls
+  619  cd testing
+  620  l
+  621  ls
+  622  less dumpy.csv 
+  623  vim testawkfile.awk 
+  624  awk -f testawkfile.awk testwarn.csv > dumpy.csv 
+  625  less dumpy.csv 
+  626  grep -i layoff dumpy.csv 
+  627  grep -i closure dumpy.csv | wc -l 
+  628  grep -i closure testwarn.csv | wc -l 
+  629  grep -i layoff testwarn.csv | wc -l 
+  630  grep "wholly owned subsidiary" testwarn.csv 
+  631  ls
+  632  less dumpy.csv 
+  633  vim testawkfile.awk 
+  634  awk -f testawkfile.awk testwarn.csv > dumpy.csv 
+  635  less dumpy.csv 
+  636  vim testawkfile.awk 
+  637  awk -f testawkfile.awk testwarn.csv > dumpy.csv 
+  638  less dumpy.csv 
+  639  vim testawkfile.awk 
+  640  awk -f testawkfile.awk testwarn.csv > dumpy.csv 
+  641  less dumpy.csv 
+  642  vim testawkfile.awk 
+  643  awk -f testawkfile.awk testwarn.csv > dumpy.csv 
+  644  less dumpy.csv 
+  645  awk -F, '{print $7}' testwarn.csv > dumpy.csv 
+  646  less dumpy.csv 
+  647  vim dumpy.csv 
+  648  vim testawkfile.awk 
+  649  awk -F, '{if ($7 ~/Layoff || $7 ~/Closure/) print $7}' testwarn.csv > dumpy.csv 
+  650  awk -F, '{if (($7 ~/Layoff) || ($7 ~/Closure/)) print $7}' testwarn.csv > dumpy.csv 
+  651  awk -F, '{if ($7 ~/Layoff || $7 ~/Closure/) print $7}' testwarn.csv > dumpy.csv 
+  652  awk -F, '{if ($7 ~/Layoff/ || $7 ~/Closure/) print $7}' testwarn.csv > dumpy.csv 
+  653  less dumpy.csv 
+  654  wc -l < dumpy.csv 
+  655  vim testawkfile.awk 
+  656  awk -f testawkfile.awk testwarn.csv > dumpy.csv 
+  657  vim testawkfile.awk 
+  658  awk -f testawkfile.awk testwarn.csv > dumpy.csv 
+  659  less dumpy.csv 
+  660  vim testawkfile.awk 
+  661  awk -f testawkfile.awk testwarn.csv > dumpy.csv 
+  662  less dumpy.csv 
+  663  vim testawkfile.awk 
+  664  awk -f testawkfile.awk testwarn.csv > dumpy.csv 
+  665  less dumpy.csv 
+  666  awk '{if ($7 ~/Layoff/ || $7 ~/Closure/) print $8,$9}' testwarn.csv > dumpy.csv 
+  667  less dumpy.csv 
+  668  awk '{if ($7 ~/Layoff/ || $7 ~/Closure/) print $9,$10}' testwarn.csv > dumpy.csv 
+  669  less dumpy.csv 
+  670  awk '{if ($7 ~/Layoff/ || $7 ~/Closure/) print}' testwarn.csv > dumpy.csv 
+  671  less dumpy.csv 
+  672  awk '{if ($7 ~/Layoff/ || $7 ~/Closure/) print}' testwarn.csv > dumpy.csv | cut -d, -f6-9 
+  673  less dumpy.csv 
+  674  awk '{if ($7 ~/Layoff/ || $7 ~/Closure/) print}' testwarn.csv > dumpy.csv | cut -d, -f6-8 
+  675  less dumpy.csv 
+  676  awk '{if ($7 ~/Layoff/ || $7 ~/Closure/) print}' testwarn.csv | cut -d, -f6-8 > dumpy.csv 
+  677  less dumpy.csv 
+  678  awk '{if ($7 ~/Layoff/ || $7 ~/Closure/) print}' testwarn.csv | cut -d, -f7-8 > dumpy.csv 
+  679  less dumpy.csv 
+  680  awk '{if ($7 !~/Layoff/ || $7 !~/Closure/) print}' testwarn.csv | cut -d, -f6-8 > dumpy.csv 
+  681  less dumpy.csv 
+  682  awk '{if ($7 !~/Layoff/ || $7 !~/Closure/) print}' testwarn.csv | cut -d, -f7-9 > dumpy.csv 
+  683  less dumpy.csv 
+  684  awk '{if ($7 !~/Layoff/ || $7 !~/Closure/) print}' testwarn.csv | cut -d, -f7-8 > dumpy.csv 
+  685  less dumpy.csv 
+  686  awk '{if ($7 !~ /Layoff/ || $7 !~ /Closure/) print $7}' testwarn.csv > dumpy.csv 
+  687  less dumpy.csv 
+  688  ls
+  689  cd ..
+  690  ls
+  691  less warn
+  692  less warn_report.csv 
+  693  ls
+  694  cd testing/
+  695  ls
+  696  awk '{if ($7 !~ /Layoff/ || $7 !~ /Closure/) print $7}' testwarn.csv > dumpy.csv 
+  697  less dumpy.csv 
+  698  awk '{if ($7 !~ /Layoff/ || $7 !~ /Closure/) print $7}' testwarn.csv > dumpy.csv 
+  699  less dumpy.csv 
+  700  awk '{if ($7 ~ /Layoff/ || $7 !~ /Closure/) print $7,$8,$9}' testwarn.csv > dumpy.csv 
+  701  less dumpy.csv 
+  702  awk '{if ($7 !~ [[:digit:]]) print $0}' testwarn.csv > dumpy.csv 
+  703  awk '{if ($7 !~ [[:digit:]]) print}' testwarn.csv > dumpy.csv 
+  704  awk '{if ($7 ~ [[:digit:]]) print}' testwarn.csv > dumpy.csv 
+  705  awk '{if ($7~[0-9]+) print $7}' testwarn.csv > dumpy.csv/ 
+  706  awk -F, '{if ($7~[0-9]+) print $7}' testwarn.csv > dumpy.csv/
+  707  awk -F, '{if ($7 ~[0-9]+) print $7}' testwarn.csv > dumpy.csv/
+  708  awk -F, '{if ($7 ~[0-9]+) print $7}' testwarn.csv > dumpy.csv
+  709  awk -F, '{$7 ~[0-9]+) print $7}' testwarn.csv > dumpy.csv
+  710  awk -F, '{$7 ~[0-9]+ print $7}' testwarn.csv > dumpy.csv
+  711  awk -F, '{$7 ~ [0-9]+ print $7}' testwarn.csv > dumpy.csv
+  712  awk -F, '{if ($7 ~[0-9]+ ) print $7}' testwarn.csv > dumpy.csv
+  713  awk '{print $7}' testwarn.csv > dumpy.csv 
+  714  rm testwarncut.csv 
+  715  ls
+  716  less dumpy.csv 
+  717  awk '{print $8}' testwarn.csv > dumpy.csv 
+  718  less dumpy.csv 
+  719  cd ..
+  720  ls
+  721  cp warn_report.csv testing
+  722  ls
+  723  clear
+  724  ls
+  725  cd testing/
+  726  ls
+  727  rm testwarn.csv 
+  728  ls
+  729  mv warn_report.csv warncopy.csv
+  730  ls
+  731  awk '{print $7}' warncopy.csv > dumpy.csv 
+  732  less dumpy.csv 
+  733  awk '{print $7-15}' warncopy.csv > dumpy.csv 
+  734  less dumpy.csv 
+  735  awk '{print $7 $8 $9 $10}' warncopy.csv > dumpy.csv 
+  736  less dumpy.csv 
+  737  pwd
+  738  ls
+  739  cd cs131/a5
+  740  ls
+  741  cd testing
+  742  ls
+  743  awk '{$7}' warncopy.csv > dumpy.csv 
+  744  ls
+  745  less dumpy.csv 
+  746  awk '{print $7}' warncopy.csv > dumpy.csv 
+  747  less dumpy.csv 
+  748  awk '{print $1}' warncopy.csv > dumpy.csv 
+  749  less dumpy.csv 
+  750  awk '{print $0}' warncopy.csv > dumpy.csv 
+  751  less dumpy.csv 
+  752  awk '{print $1}' warncopy.csv > dumpy.csv 
+  753  less dumpy.csv 
+  754  awk '{print $23}' warncopy.csv > dumpy.csv 
+  755  awk '{print $24}' warncopy.csv > dumpy.csv 
+  756  less dumpy.csv 
+  757  awk '{print $4}' warncopy.csv > dumpy.csv 
+  758  less dumpy.csv 
+  759  cut -d, -f7 warncopy.csv > dumpy.csv 
+  760  less dumpy.csv 
+  761  cut -d, -f6 warncopy.csv > dumpy.csv 
+  762  less dumpy.csv 
+  763  cut -d, -f7 warncopy.csv > dumpy.csv 
+  764  lessdu
+  765  less dumpy.csv 
+  766  cut -d, -f8 warncopy.csv > dumpy.csv 
+  767  less dumpy.csv 
+  768  grep 558 warncopy.csv 
+  769  cut -d, -f9 warncopy.csv > dumpy.csv 
+  770  less dumpy.csv 
+  771  cut -d, -f10 warncopy.csv > dumpy.csv 
+  772  less dumpy.csv 
+  773  cut -d, -f7-10 warncopy.csv > dumpy.csv 
+  774  less dumpy.csv 
+  775  vim dumpy.csv 
+  776  cut -d, -f6-10 warncopy.csv > dumpy.csv 
+  777  vim dumpy.csv 
+  778  cut -d, -f7-10 warncopy.csv > dumpy.csv 
+  779  vim dumpy.csv 
+  780  wc -l < dumpy.csv 
+  781  wc -l < warncopy.csv 
+  782  cut -d, -f7,10 warncopy.csv > dumpy.csv 
+  783  less dumpy.csv 
+  784  cut -d, -f7-10 warncopy.csv > dumpy.csv 
+  785  less dumpy.csv 
+  786  vim dumpy.csv 
+  787  cut -d, -f7-10 warncopy.csv > dumpy.txt
+  788  vim dumpy.txt
+  789  cut -f1 dumpy.txt 
+  790  clear
+  791  cut -d, -f7-10 warncopy.csv > dumpy.txt
+  792  less dumpy.
+  793  ls
+  794  rm dumpy.txt 
+  795  ls
+  796  cut -d, -f7-10 warncopy.csv > dumpy.csv 
+  797  ls
+  798  vim dumpy.csv 
+  799  ls
+  800  vim dumpy.csv 
+  801  sed 's/$"//' warncopy.csv > sedtest.csv
+  802  less sedtest.csv 
+  803  sed 's/$"//g' warncopy.csv > sedtest.csv
+  804  less sedtest.csv 
+  805  sed 's/"//g' warncopy.csv > sedtest.csv 
+  806  less sedtest.csv 
+  807  vim sedtest.csv 
+  808  grep \" sedtest.csv 
+  809  vim sedtest.csv 
+  810  grep \" sedtest.csv 
+  811  sed 's/^M//g' sedtest.csv 
+  812  :q!
+  813  sed 's/^M//g' warncopy.csv > sedtest.csv 
+  814  vim sedtest.csv 
+  815  cut -c 5 sedtest.csv > chickentest.csv
+  816  less chickentest.csv 
+  817  cut -c 101 sedtest.csv > chickentest.csv
+  818  less chickentest.csv 
+  819  cut -c 1-15 sedtest.csv > chickentest.csv
+  820  less chickentest.csv 
+  821  ls
+  822  rm chickentest.csv 
+  823  less dumpy.csv 
+  824  less sedtest.csv 
+  825  less warncopy.csv 
+  826  rm sedtest.csv 
+  827  ls
+  828  cut -d, -f7-10 warncopy.csv > dumpy.csv
+  829  ls
+  830  less dumpy.csv 
+  831  sed -i 's/"//g' dumpy.csv 
+  832  less dumpy.csv 
+  833  sed '[0-9]{5}$' dumpy.csv > sedoutput.csv
+  834  grep '[0-9]{5}$' dumpy.csv > sedoutput.csv
+  835  less sedoutput.csv 
+  836  sed '[0-9]{5}$' dumpy.csv > sedoutput.csv
+  837  less dumpy.csv 
+  838  awk '{print $1}' dumpy.csv > awkdumpy.csv
+  839  rm sedoutput.csv 
+  840  ls
+  841  less awkdumpy.csv 
+  842  awk -F, '{print $1}' dumpy.csv > awkdumpy.csv
+  843  less awkdumpy.csv 
+  844  awk -F, '{print $2}' dumpy.csv > awkdumpy.csv
+  845  less awkdumpy.csv 
+  846  awk -F, '{print $3}' dumpy.csv > awkdumpy.csv
+  847  less awkdumpy.csv 
+  848  awk -F, '{print $3}' dumpy.csv > awkdumpy.csv
+  849  less awkdumpy.csv 
+  850  vim dumpy.csv 
+  851  ls
+  852  less awkdumpy.csv 
+  853  ls
+  854  cut -d, -f7-10 warncopy.csv > dumpy2.csv
+  855  less dumpy2.csv 
+  856  cut -d, -f7-10 warncopy.csv > dumpy.csv
+  857  less dumpy
+  858  less dumpy.csv 
+  859  rm dumpy2.csv 
+  860  ls
+  861  rm awkdumpy.csv 
+  862  ls
+  863  vim testawkfile.awk 
+  864  ls
+  865  vim dumpy.csv 
+  866  sed -i 's/"//g' dumpy.csv 
+  867  vim dumpy.csv 
+  868  man cut
+  869  sed 's/[0-9]$//g' dumpy.csv > seddump.csv
+  870  less seddump.csv 
+  871  sed 's/[0-9]${5}//g' dumpy.csv > seddump.csv
+  872  less seddump.csv 
+  873  sed 's/[0-9]{5}$//g' dumpy.csv > seddump.csv
+  874  less seddump.csv 
+  875  man grep
+  876  sed 's/^.*\(.\{5\}\)/\1/' dumpy.csv > seddump.csv 
+  877  less seddump.csv 
+  878  vim seddump.csv 
+  879  sed 's/^.*\(.\{5\}\)//' dumpy.csv > seddump.csv 
+  880  less seddump.csv 
+  881  sed 's/^.*\(.\{5\}\)/\1/' dumpy.csv > seddump.csv 
+  882  less seddump.csv 
+  883  sed 's/^.*\(.\{5\}\)/\2/' dumpy.csv > seddump.csv 
+  884  sed 's/^.*\(.\{5\}\)/\3/' dumpy.csv > seddump.csv 
+  885  sed 's/^.*\(.\{5\}\)/\1/' dumpy.csv > seddump.csv 
+  886  less seddump.csv 
+  887  ls
+  888  less warncopy.csv 
+  889  less seddump.csv 
+  890  ls
+  891  less seddump.csv 
+  892  less dumpy.csv 
+  893  vim testawkfile.awk 
+  894  vim awkfordumpyv2.awk
+  895  ls
+  896  less seddump.csv 
+  897  mv seddump.csv zipcodedumpcsv
+  898  mv zipcodedumpcsv zipcodedump.csv
+  899  ls
+  900  less zipcodedump.csv 
+  901  less dumpy.csv 
+  902  awk -F, '{print $1}' dumpy.csv > outputdumpy.csv
+  903  less outputdumpy.csv 
+  904  awk -F, '{print $2}' dumpy.csv > outputdumpy.csv
+  905  less outputdumpy.csv 
+  906  awk -F, '{print $1}' dumpy.csv > outputdumpy.csv
+  907  less outputdumpy.csv 
+  908  awk -F, '{print $2}' dumpy.csv > outputdumpy.csv
+  909  less outputdumpy.csv 
+  910  ls
+  911  vim awkfordumpyv2.awk 
+  912  awk -f awkfordumpyv2.awk dumpy.csv > outputdumpy.csv 
+  913  less outputdumpy.csv 
+  914  vim dumpy.csv 
+  915  awk -F, '{
+  916  awk -F, '{if ($1 ~/ CA /) print $2}' dumpy.csv > outputdumpy.csv 
+  917  less outputdumpy.csv 
+  918  vim outputdumpy.csv 
+  919  awk -F, '{if ($1 ~/CA/) print $2}' dumpy.csv > outputdumpy.csv 
+  920  less outputdumpy.csv 
+  921  awk -F, '{if ($1 !~/CA/) print $2}' dumpy.csv > outputdumpy.csv 
+  922  less outputdumpy.csv 
+  923  awk -F, '{if ($1 !~/CA/) print $1}' dumpy.csv > outputdumpy.csv 
+  924  less outputdumpy.csv 
+  925  awk -F, '{if ($1 !~/CA/ || $1 !~ /Layoff/ || $1 !~/Closure/) print $1}' dumpy.csv > outputdumpy.csv 
+  926  less outputdumpy.csv 
+  927  awk -F, '{if ($1 !~/Closure/) print $1}' dumpy.csv > outputdumpy.csv 
+  928  less outputdumpy.csv 
+  929  awk -F, '{if ($1 !~/CA/ &&  $1 !~ /Layoff/ && $1 !~/Closure/) print $1}' dumpy.csv > outputdumpy.csv
+  930  less outputdumpy.csv 
+  931  wc -l < outputdumpy.csv 
+  932  wc -l < dumpy.csv 
+  933  l
+  934  sls
+  935  ls
+  936  vim awkfordumpyv2.awk 
+  937  ls
+  938  less outputdumpy.csv 
+  939  vim outputdumpy.csv 
+  940  ls
+  941  mv tempoutputdumpy.csv
+  942  mv outputdumpy.csv tempoutputdumpy.csv
+  943  ls
+  944  awk -f awkfordumpyv2.awk dumpy.csv > scripttest.csv
+  945  less scripttest.csv 
+  946  wc -l < scripttest.csv 
+  947  wc -l < zipcodedump.csv 
+  948  vim awkfordumpyv2.awk 
+  949  ls
+  950  less scripttest.csv 
+  951  mv scripttest.csv layoffdump.csv
+  952  ls
+  953  less tempoutputdumpy.csv 
+  954  wc -l < tempoutputdumpy.csv 
+  955  rm tempoutputdumpy.csv 
+  956  ls
+  957  vim testawkfile.awk 
+  958  mv layoffdump.csv layoffcountdump.csv
+  959  ls
+  960  man paste
+  961  paste -s -d "," layoffcountdump.csv zipcodedump.csv > layoffpluszipcode.csv
+  962  less layoff
+  963  less layoffpluszipcode.csv 
+  964  paste -d "," layoffcountdump.csv zipcodedump.csv > layoffpluszipcode.csv
+  965  less layoffpluszipcode.csv 
+  966  less warncopy.csv 
+  967  vim warncopy.csv 
+  968  ls
+  969  cd ..
+  970  ls
+  971  vim awkfile.awk 
+  972  rm awkfile.awk 
+  973  ls
+  974  cp aiwork.cfg ./testing
+  975  ls
+  976  cd testing/
+  977  ls
+  978  wc -l < warncopy.csv 
+  979  wc -l < dumpy.csv 
+  980  mv warncopy.csv warnreferencecopy.csv
+  981  ls
+  982  vim aiwork.cfg 
+  983  ls
+  984  cd ..
+  985  ls
+  986  cd testing
+  987  ls
+  988  vim awkfordumpyv2.awk 
+  989  pwd
+  990  ls
+  991  vim aiwork.cfg 
+  992  ls
+  993  vim layoffpluszipcode.csv 
+  994  cd ..
+  995  ls
+  996  cd warnanalysis/
+  997  ls
+  998  cd ..
+  999  ls
+ 1000  cd testing/
+ 1001  ls
+ 1002  mkdir test train
+ 1003  ls
+ 1004  wc -l < layoffpluszipcode.csv 
+ 1005  vim layoffpluszipcode.csv 
+ 1006  vim layoff
+ 1007  vim layoffpluszipcode.csv 
+ 1008  head -n 890 layoffpluszipcode.csv > ./train/80percentlayoffzipcode.csv
+ 1009  ls
+ 1010  cd train
+ 1011  ls
+ 1012  less 80percentlayoffzipcode.csv 
+ 1013  !
+ 1014  cd ..
+ 1015  ls
+ 1016  less layoffpluszipcode.csv 
+ 1017  !
+ 1018  tail -n 228 layoffpluszipcode.csv > ./test/20percentlayoffzipcode.csv
+ 1019  cd test
+ 1020  ls
+ 1021  vim 20percentlayoffzipcode.csv 
+ 1022  cd ../train
+ 1023  vim 80percentlayoffzipcode.csv 
+ 1024  cd ..
+ 1025  ls
+ 1026  vim aiwork.cfg 
+ 1027  ls
+ 1028  vim svrconfig.cfg
+ 1029  ls
+ 1030  vim svrconfig.cfg 
+ 1031  vim layoffpluszipcode.csv 
+ 1032  vim svrconfig.cfg 
+ 1033  vim aiwork.cfg 
+ 1034  vim svrconfig.cfg 
+ 1035  ls
+ 1036  run_experiment svrconfig.cfg 
+ 1037  ls
+ 1038  cd test
+ 1039  ls
+ 1040  cd ..
+ 1041  ls
+ 1042  cd ..
+ 1043  ls
+ 1044  cd testing/
+ 1045  ls
+ 1046  vim layoffpluszipcode.csv 
+ 1047  cd test/
+ 1048  ls
+ 1049  cd ..
+ 1050  ls
+ 1051  vim svrconfig.cfg 
+ 1052  cd test/20percentlayoffzipcode.csv 
+ 1053  cd test/
+ 1054  ls
+ 1055  mv 20percentlayoffzipcode.csv svrmodel.csv
+ 1056  cd ../train
+ 1057  mv 80percentlayoffzipcode.csv svrmodel.csv
+ 1058  ls
+ 1059  cd ..
+ 1060  sl
+ 1061  ls
+ 1062  vim svrconfig.cfg 
+ 1063  run_experiment svrconfig.cfg 
+ 1064  ls
+ 1065  cd test/
+ 1066  ls
+ 1067  vim svrmodel.csv 
+ 1068  ls
+ 1069  cd ..
+ 1070  ls
+ 1071  grep 4&#9 layoffpluszipcode.csv 
+ 1072  vim layoffpluszipcode.csv 
+ 1073  ls
+ 1074  less dumpy.csv 
+ 1075  !
+ 1076  cd test/
+ 1077  ls
+ 1078  vim svrmodel.csv 
+ 1079  cd ..
+ 1080  ls
+ 1081  less dumpy.csv 
+ 1082  less warnreferencecopy.csv 
+ 1083  ls
+ 1084  cd test
+ 1085  ls
+ 1086  vim svrmodel.csv 
+ 1087  cd ..
+ 1088  cd train/
+ 1089  ls
+ 1090  vim svrmodel.csv 
+ 1091  cd ..
+ 1092  ls
+ 1093  run_experiment svrconfig.cfg 
+ 1094  ls
+ 1095  vim svrconfig.cfg 
+ 1096  run_experiment svrconfig.cfg 
+ 1097  ld
+ 1098  ls
+ 1099  man ld
+ 1100  cd tes
+ 1101  cd test/
+ 1102  ls
+ 1103  vim svrmodel.csv 
+ 1104  cd ../train
+ 1105  vim svrmodel.csv 
+ 1106  cd ..
+ 1107  run_experiment svrconfig.cfg 
+ 1108  ls
+ 1109  less layoffpluszipcode.csv 
+ 1110  vim layoffpluszipcode.csv 
+ 1111  cd test
+ 1112  ls
+ 1113  vim svrmodel.csv 
+ 1114  cd ../train
+ 1115  ls
+ 1116  vim svrmodel.csv 
+ 1117  cd ..
+ 1118  run_experiment svrconfig.cfg 
+ 1119  vim svrconfig.cfg 
+ 1120  ls
+ 1121  cd train/vim svrconfig.cfg 
+ 1122  cd train
+ 1123  vim svrmodel.csv 
+ 1124  cd ..
+ 1125  run_experiment svrconfig.cfg 
+ 1126  cd ~
+ 1127  cd cs131
+ 1128  ls -lah
+ 1129  cd a5
+ 1130  ls -lah
+ 1131  cd ..
+ 1132  cd cs131
+ 1133  ls
+ 1134  git status
+ 1135  find awsreviews.tsv
+ 1136  git add .
+ 1137  git status
+ 1138  git commit -a -m "First push for a4 and a5 project along with classwork."
+ 1139  git push -u origin master
+ 1140  cd a5
+ 1141  sl
+ 1142  ls
+ 1143  cd testing
+ 1144  ls
+ 1145  cd ..
+ 1146  ls
+ 1147  cd testing
+ 1148  ls
+ 1149  vim layoffpluszipcode.csv 
+ 1150  ls
+ 1151  run_experiment svrconfig.cfg 
+ 1152  ls
+ 1153  lscvpu
+ 1154  lscpu
+ 1155  ls
+ 1156  cd cs131
+ 1157  ls
+ 1158  cd a4
+ 1159  ls
+ 1160  cd ../a5
+ 1161  ls
+ 1162  cd testing
+ 1163  ls
+ 1164  run_experiment svrconfig.cfg 
+ 1165  ls
+ 1166  cd output/
+ 1167  ls
+ 1168  less support_vector_machine_regression.log 
+ 1169  less support_vector_machine_regression_layoffpluszipcode.csv_Lars.log 
+ 1170  less support_vector_machine_regression_svrmodel.csv_Lars.log 
+ 1171  ls
+ 1172  cd ..
+ 1173  ls
+ 1174  cd ..
+ 1175  ls
+ 1176  cd testing
+ 1177  ls
+ 1178  less layoffcountdump.csv 
+ 1179  vim awkfordumpyv2.awk 
+ 1180  ls
+ 1181  awk -f awkfordumpyv2.awk warnreferencecopy.csv > testydump.csv
+ 1182  less testydump.csv 
+ 1183  less dumpy.csv 
+ 1184  less testydump.csv 
+ 1185  vim awkfordumpyv2.awk 
+ 1186  less warnreferencecopy.csv 
+ 1187  cut -d, -f1,-f7-9 warnreferencecopy.csv > chickenbutt.csv
+ 1188  cut -d, -f1,-f7,9 warnreferencecopy.csv > chickenbutt.csv
+ 1189  cut -d, -f1,7-9 warnreferencecopy.csv > chickenbutt.csv
+ 1190  less chickenbutt.csv 
+ 1191  less dumpy.csv 
+ 1192  awk '{print $1}' warnreferencecopy.csv | head -n -15
+ 1193  awk '{print $1}' warnreferencecopy.csv | head -n 7
+ 1194  awk '{print $1}' warnreferencecopy.csv | head -n 15
+ 1195  awk '{print $1 $2}' warnreferencecopy.csv | head -n 15
+ 1196  awk '{print $1" "$2}' warnreferencecopy.csv | head -n 15
+ 1197  awk '{print $1" "$2" "$3}' warnreferencecopy.csv | head -n 15
+ 1198  awk '{print $1" "$2}' warnreferencecopy.csv | head -n 15
+ 1199  awk '{print $1" "$2}' warnreferencecopy.csv > countyprint.csv
+ 1200  less countyprint.csv 
+ 1201  ls
+ 1202  sed 's/County.*//g' countyprint.csv > countyprintclean.csv
+ 1203  less countyprintclean.csv 
+ 1204  sed 's/County.*/County/g' countyprint.csv > countyprintclean.csv
+ 1205  less countyprintclean.csv 
+ 1206  sort -hr countyprintclean.csv | uniq -c | sort -hr > sortedcountyprintclean.csv
+ 1207  less sortedcountyprintclean.csv 
+ 1208  cut -f1 sortedcountyprintclean.csv 
+ 1209  cut -c 3 sortedcountyprintclean.csv > plomp.csv
+ 1210  less plomp.csv 
+ 1211  cut -c 10 sortedcountyprintclean.csv > plomp.csv
+ 1212  less plomp.csv 
+ 1213  man cut
+ 1214  cut -c0- 10 sortedcountyprintclean.csv > plomp.csv
+ 1215  cut -c 1-10 sortedcountyprintclean.csv > plomp.csv
+ 1216  less plomp.csv 
+ 1217  cut -c 1-7 sortedcountyprintclean.csv > plomp.csv
+ 1218  less plomp.csv 
+ 1219  paste -s -d "+" plomp.csv | bc
+ 1220  ls
+ 1221  less layoffpluszipcode.csv 
+ 1222  cut -f2 layoffpluszipcode.csv | head -n 5
+ 1223  cut -c1-5 layoffpluszipcode.csv | head -n 5
+ 1224  cut -c5-10 layoffpluszipcode.csv | head -n 5
+ 1225  awk -F, '{print $2}' layoffpluszipcode.csv | head -n 3
+ 1226  ls
+ 1227  less testydump.csv 
+ 1228  history > cmds.log

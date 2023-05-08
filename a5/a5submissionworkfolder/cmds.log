@@ -1,0 +1,19 @@
+#Cuts the counties column out of the warn file and into counties.csv
+awk -f awkcountygrabberscript.awk warnreferencecopy.csv > counties.csv
+
+#Cuts the number of people laid off & address w/ zipcode 
+cut -d, -f7-10 warnreferencecopy.csv > layoffzip.csv
+
+#Remove the occasional " that was present at the end of each line
+sed -i 's/"//g' layoffzip.csv
+
+#Regex to get zipcode & save into file 
+sed 's/^.*\(.\{5\}\)/\1/' layoffzip.csv > zipcodeextraction.csv
+mv zipcodeextraction.csv zipcode.csv
+
+#Running awk script to get number laid off from layoff num + address
+awk -f awklayoffgrabberscript.awk layoffzip.csv > numlayoff.csv
+
+#Combining counties, number laid off, and zip code along commas
+paste -d "," counties.csv numlayoff.csv zipcode.csv > combinedcountieslayoffzip.csv
+history > cmds.log
